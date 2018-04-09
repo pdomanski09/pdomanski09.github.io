@@ -3,6 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Form HTML5</title>
+    <style>
+        .button {
+            cursor: pointer;
+            border-radius: 10%;
+            background-color: #dfdbc3;
+            width: 150px;
+            box-shadow: 5px 1em 2em hsla(0,0%,0%,.9);
+        }
+        .button:hover {
+            background-color: #777696;
+        }
+        .button:focus {
+            background-color: #777696;
+        }
+        .focus:hover {
+            background-color: #dfdbc3;
+        }
+    </style>
 </head>
 <body>
 <!-- FORM START -->
@@ -11,13 +29,13 @@
 <legend><h3>Dane osobowe</h3></legend>
 <legend></legend>
 <label for="name">Imię:<sup>&lowast;</sup>&nbsp;</label>
-<input type="text" name="name" id="name" placeholder="Pole wymagane" required /><br /><br />
+<input type="text" name="name" id="name" placeholder="Pole wymagane" class="focus" required /><br /><br />
 <label for="surname">Nazwisko:<sup>&lowast;</sup>&nbsp;</label>
-<input type="text" name="surname" id="surname" placeholder="Pole wymagane" required /><br /><br />
+<input type="text" name="surname" id="surname" placeholder="Pole wymagane" class="focus" required /><br /><br />
 <label for="email">E-mail:<sup>&lowast;</sup>&nbsp;</label>
-<input type="email" name="email" id="email" placeholder="Pole wymagane" required /><br /><br />
+<input type="email" name="email" id="email" placeholder="Pole wymagane" class="focus" required /><br /><br />
 <label for="telephone">Telefon:<sup>&lowast;</sup>&nbsp;</label>
-<input type="tel" name="telephone" id="telephone" placeholder="+48...&nbsp;...&nbsp;..." required /><br /><br />
+<input type="tel" name="telephone" id="telephone" placeholder="+48...&nbsp;...&nbsp;..." class="focus" required /><br /><br />
 <label for="sex">Płeć:<sup>&lowast;</sup>&nbsp;</label>
 <input type="radio" name="sex" id="sex" style="cursor:pointer;">Kobieta
 <input type="radio" name="sex" id="sex" style="cursor:pointer;">Mężczyzna
@@ -34,7 +52,7 @@
 <fieldset>
     <legend><h3>Wpisz treść pytania (maxymalnie 1000 znaków)</h3></legend>
     <label for="content"><strong>Wiadomość:<sup>&lowast;</sup></strong>&nbsp;</label><br /><br />
-    <textarea type="text" name="content" id="content" maxlenght="1000" placeholder="Tu wpisz tekst wiadomości (max 1000 znaków)" style="width:600px; height:150px;" required></textarea>
+    <textarea type="text" name="content" id="content" maxlenght="1000" placeholder="Tu wpisz tekst wiadomości (max 1000 znaków)" style="width:600px; height:150px;" class="focus" required></textarea>
 </fieldset>
 <fieldset>
     <legend><h3>Zgody marketingowe</h3></legend>
@@ -43,6 +61,7 @@
 </fieldset>
 <br />
 <p><strong>&lowast;</strong>&nbsp;&nbsp;Pola oznaczone gwiazdką są wymagane</p>
+<button type="submit" class="button"><h2>Wyślij</h2></button>
 </form>
 <!-- FORM END -->
 </body>
