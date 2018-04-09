@@ -10,6 +10,15 @@
         body {
             background-color: #c3c1c4;
             margin: 0;
+            padding: 30px;
+        }
+
+        #form {
+            width: 65%;
+            height: auto;
+            position: relative;
+            top: auto;
+            left: 20%;
         }
 
         .button {
@@ -59,18 +68,18 @@
 <body>
     <h1 class="zapisy">Zapisy na szkolenie !</h1><br /><br />
     <!-- FORM START -->
-    <form method="post" action="https://formspree.io/piotrdomanski@tlen.pl">
+    <form method="post" action="https://formspree.io/piotrdomanski@tlen.pl" id="form">
         <fieldset>
             <legend>
                 <h3>Dane osobowe</h3>
             </legend>
-            <label for="name">Imię:<sup>&lowast;</sup>&nbsp;</label>
+            <label for="name">Imię:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>&lowast;</sup>&nbsp;</label>
             <input type="text" name="Imię" id="name" placeholder="Pole wymagane" class="focus" required /><br /><br />
             <label for="surname">Nazwisko:<sup>&lowast;</sup>&nbsp;</label>
             <input type="text" name="Nazwisko" id="surname" placeholder="Pole wymagane" class="focus" required /><br /><br />
-            <label for="email">E-mail:<sup>&lowast;</sup>&nbsp;</label>
+            <label for="email">E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>&lowast;</sup>&nbsp;</label>
             <input type="email" name="E-mail" id="email" placeholder="Pole wymagane" class="focus" required /><br /><br />
-            <label for="telephone">Telefon:<sup>&lowast;</sup>&nbsp;</label>
+            <label for="telephone">Telefon:&nbsp;&nbsp;&nbsp;&nbsp;<sup>&lowast;</sup>&nbsp;</label>
             <input type="tel" name="Telefon" id="telephone" placeholder="+48...&nbsp;...&nbsp;..." class="focus" required /><br /><br />
             <label>Płeć:<sup>&lowast;</sup>&nbsp;</label>
             <input type="radio" name="Płeć" value="Kobieta" style="cursor:pointer;">Kobieta
