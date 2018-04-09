@@ -47,15 +47,15 @@
             <label for="telephone">Telefon:<sup>&lowast;</sup>&nbsp;</label>
             <input type="tel" name="telephone" id="telephone" placeholder="+48...&nbsp;...&nbsp;..." class="focus" required /><br /><br />
             <label for="sex">Płeć:<sup>&lowast;</sup>&nbsp;</label>
-            <input type="radio" name="sex" id="plec" style="cursor:pointer;">Kobieta
-            <input type="radio" name="sex" id="plec" style="cursor:pointer;">Mężczyzna
+            <input type="radio" name="Płeć" id="sex" style="cursor:pointer;">Kobieta
+            <input type="radio" name="Płeć" style="cursor:pointer;">Mężczyzna
         </fieldset>
         <fieldset>
             <legend>
                 <h3>Miasto</h3>
             </legend>
             <label for="city">Miasto:&nbsp;</label>
-            <select name="city" style="cursor:pointer;">
+            <select name="city" id="city" style="cursor:pointer;">
     <option >Kraków&nbsp;</option>
     <option>Warszawa&nbsp;</option>
     <option>Gdańsk&nbsp;</option>
@@ -63,10 +63,10 @@
         </fieldset>
         <fieldset>
             <legend>
-                <h3>Wpisz treść pytania (maxymalnie 1000 znaków)</h3>
+                <h3>Wpisz treść pytania</h3>
             </legend>
             <label for="content"><strong>Wiadomość:<sup>&lowast;</sup></strong>&nbsp;</label><br /><br />
-            <textarea name="content" id="content" maxlenght="1000" placeholder="Tu wpisz tekst wiadomości (max 1000 znaków)" style="width:600px; height:150px;" class="focus" required></textarea>
+            <textarea name="content" id="content" placeholder="Tu wpisz tekst wiadomości" style="width:600px; height:150px;" class="focus" required></textarea>
         </fieldset>
         <fieldset>
             <legend>
