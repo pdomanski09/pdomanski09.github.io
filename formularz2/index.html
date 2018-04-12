@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zadanie 7749</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- START FORM -->
+	<h1>A Simple form</h1>
+	<h4>Form Fundamentals</h4>
+	<form method="post" action="https://formspree.io/piotrdomanski@tlen.pl">
+		<fieldset>
+			<legend>Customer Info</legend>
+			<label for="name">Name:&nbsp;</label>
+				<input type="text" id="name" class="pole" name="Imię" placeholder="Enter your name" required autofocus>
+				<br /><br />
+			<label for="tel">Telephone:&nbsp;</label>
+				<input type="text" id="tel" class="pole" name="Telefon" placeholder="Pattern 1-123-567-8910" required>
+				<br /><br />
+			<label for="email">Email address:</label>
+				<input type="email" id="email" class="pole" placeholder="Enter your email address" required>
+		</fieldset>
+		<fieldset>
+			<legend>Books</legend>
+			<input type="text" name="Książka" class="books">
+				Quantity (Maximum 5):
+				<input type="text" class="quantity">
+		</fieldset>
+			<button type="submit" class="button">Submit</button>
+	</form>
+	<!-- END FORM -->
+</body>
+</html>

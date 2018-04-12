@@ -1,0 +1,53 @@
+h1 {
+	font-weight: 600;
+	color: #0b133a;
+}
+h4 {
+	font-style: italic;
+	font-size: 20px;
+	position: relative;
+	top: -30px;
+}
+fieldset > label {
+	padding-left: 60px;
+}
+fieldset {
+	position: relative;
+	top: -50px;
+}
+.pole {
+	width: 250px;
+	height: 20px;
+	background-color: #dfccc3;
+}
+.pole:hover {
+	background-color: #0b133a;
+	color: aliceblue;
+}
+.pole:focus {
+	background-color: #0b133a;
+	color: aliceblue;
+}
+.books {
+	margin-left: 50px;
+	width: 400px;
+	background-color: #dfccc3;
+}
+.quantity {
+	width: 150px;
+	background-color: #dfccc3;
+}
+.quantity:hover {
+	background-color: #0b133a;
+	color: aliceblue;
+}
+.quantity:focus {
+	background-color: #0b133a;
+	color: aliceblue;
+}
+.button {
+	position: relative;
+	top: -40px;
+	border: 1px solid grey;
+	border-radius: 10%;
+}
