@@ -16,16 +16,25 @@
 				<input type="text" id="name" class="pole" name="Imię" placeholder="Enter your name" required autofocus>
 				<br /><br />
 			<label for="tel">Telephone:&nbsp;</label>
-				<input type="text" id="tel" class="pole" name="Telefon" placeholder="Pattern 1-123-567-8910" required>
+				<input type="tel" id="tel" class="pole" name="Telefon" placeholder="Pattern 1-123-567-8910" maxlength="14" pattern="[1-1]{1}-[2-4]{3}-[5-7]{3}-[8-10]{4}" required>
 				<br /><br />
 			<label for="email">Email address:</label>
-				<input type="email" id="email" class="pole" placeholder="Enter your email address" required>
+				<input type="email" id="email" class="pole" placeholder="Enter your email address" multiple required>
 		</fieldset>
 		<fieldset>
 			<legend>Books</legend>
-			<input type="text" name="Książka" class="books">
-				Quantity (Maximum 5):
-				<input type="text" class="quantity">
+			<label>
+			<input type="datalist" name="Książki" list="ksiazki" class="books">
+			</label>
+			<datalist id="ksiazki" class="quantity">
+				<option>Dramaty</option>
+      			<option>Horrory</option>
+      			<option>Kryminały</option>
+      			<option>Fantastyka</option>
+      			<option>Biografie</option>
+			</datalist>
+			Quantity (Maximum 5):
+			<input type="number" name="Ilość" class="quantity" min="1" max="5">
 		</fieldset>
 			<button type="submit" class="button">Submit</button>
 	</form>
