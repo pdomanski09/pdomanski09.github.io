@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 30px;
 }
-
+sup {
+	font-size: 17px;
+}
 #form {
     width: 70%;
     height: auto;
@@ -23,20 +25,16 @@ body {
     font-weight: 600;
     box-shadow: 5px 1em 2em hsla(0, 0%, 0%, .9);
 }
-
 .button:hover {
     background-color: #0e2f44;
     color: #dfdbc3;
 }
-
 .button:focus {
     background-color: #777696;
 }
-
 .focus:hover {
     background-color: #dfdbc3;
 }
-
 .zapisy {
     color: red;
     width: 100%;
@@ -50,20 +48,16 @@ body {
     position: relative;
     top: 0px;
 }
-
 .pointer {
     cursor: pointer;
 }
-
 .textarea {
     width: 600px;
     height: 150px;
 }
-
 textarea:hover {
     background-color: #dfdbc3;
 }
-
 .checkbox {
     width: 20px;
     height: 20px;
