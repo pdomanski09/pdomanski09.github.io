@@ -6,6 +6,9 @@ body {
 sup {
 	font-size: 17px;
 }
+input {
+	background-color: bisque;
+}
 #form {
     width: 70%;
     height: auto;
@@ -16,7 +19,6 @@ sup {
 
 .button {
     cursor: pointer;
-    border-radius: 10%;
     background-color: #dfdbc3;
     width: 150px;
     height: 50px;
@@ -24,16 +26,16 @@ sup {
     color: #0e2f44;
     font-weight: 600;
     box-shadow: 5px 1em 2em hsla(0, 0%, 0%, .9);
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .button:hover {
     background-color: #0e2f44;
     color: #dfdbc3;
 }
-.button:focus {
+.button:focus, .focus:focus {
     background-color: #777696;
-}
-.focus:hover {
-    background-color: #dfdbc3;
+	border: 1px solid blue;
 }
 .zapisy {
     color: red;
