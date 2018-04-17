@@ -21,17 +21,37 @@ body {
 	position: relative;
 	top: 0;
 	border: 0.1px solid;
+	margin: 0 auto;
 }
-#main-head h1, h2 {
+#main-head .main-content {
 	position: relative;
 	top: 50%;
+	left: 0;
 	transform: translateY(-50%);
 	letter-spacing: 2px;
 	margin-left: 5vw;
 }
 #main-head h1 {
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 }
 #main-head h2 {
-	font-size: 3.5rem;
+	font-size: 4.5rem;
+}
+@media all and (min-width: 992px) and (max-width: 1170px) {
+	#main-head {
+		background-image: url(../img/man-2.jpg);
+		height: 70vh;
+		width: 100vw;
+	}
+	#main-head h1 {
+		font-size: 2rem;
+	}
+	#main-head h2 {
+		font-size: 3rem;
+	}
+	#main-head .main-content {
+		top: 10%;
+		width: 460px;
+		transform: translateX(110%);
+	}
 }
