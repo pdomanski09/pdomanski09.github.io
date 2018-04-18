@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Zadanie 7749</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<!-- START FORM -->
 	<h1>A Simple form</h1>
@@ -13,13 +15,13 @@
 		<fieldset>
 			<legend>Customer Info</legend>
 			<label for="name">Name:&nbsp;</label>
-				<input type="text" id="name" class="pole" name="Imię" placeholder="Enter your name" required autofocus autocomplete="on">
-				<br /><br />
+			<input type="text" id="name" class="pole" name="Imię" placeholder="Enter your name" required autofocus autocomplete="on">
+			<br /><br />
 			<label for="tel">Telephone:&nbsp;</label>
-				<input type="tel" id="tel" class="pole" name="Telefon" placeholder="Pattern 1-123-567-8910" maxlength="14" pattern="[1-1]{1}-[2-4]{3}-[5-7]{3}-[8-9]{4}" required autocomplete="on">
-				<br /><br />
+			<input type="tel" id="tel" class="pole" name="Telefon" placeholder="Pattern 1-123-567-8910" maxlength="14" pattern="[1-1]{1}-[2-4]{3}-[5-7]{3}-[8-9]{4}" required autocomplete="on">
+			<br /><br />
 			<label for="email">Email address:</label>
-				<input type="email" id="email" class="pole" placeholder="Enter your email address" multiple required autocomplete="on">
+			<input type="email" id="email" class="pole" placeholder="Enter your email address" multiple required autocomplete="on">
 		</fieldset>
 		<fieldset>
 			<legend>Books</legend>
@@ -32,12 +34,12 @@
       			<option>Kryminały</option>
       			<option>Fantastyka</option>
       			<option>Biografie</option>
-			</datalist>
-			Quantity (Maximum 5):
+			</datalist> Quantity (Maximum 5):
 			<input type="number" name="Ilość" class="quantity" min="1" max="5">
 		</fieldset>
-			<button type="submit" class="button">Submit</button>
+		<button type="submit" class="button">Submit</button>
 	</form>
 	<!-- END FORM -->
 </body>
+
 </html>
