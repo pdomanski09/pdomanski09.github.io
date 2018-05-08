@@ -34,11 +34,12 @@ button:focus {
 	margin-left: 50%;
 	margin-top: 50px;
 	transform: translateX(-50%);
-	border: 3px solid darkblue;
+	border: .5px solid darkslategrey;
 	width: auto;
 	height: 400px;
 	background-color: darkslategrey;
 	text-align: center;
+	box-shadow: 9px 10px 30px black;
 }
 #dane-programisty p {
 	font-family: verdana, 'sans-serif';
