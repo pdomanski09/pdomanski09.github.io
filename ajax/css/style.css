@@ -25,6 +25,11 @@ button:hover {
 	width: 220px;
 	height: 60px;
 }
+button:focus {
+	background-color: #2f74b0;
+	width: 220px;
+	height: 60px;
+}
 #dane-programisty {
 	margin-left: 50%;
 	margin-top: 50px;
