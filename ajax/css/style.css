@@ -1,11 +1,29 @@
-
+html, body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #D2EDE9;
+}
 button {
 	width: 200px;
 	height: 50px;
 	font-weight: 600;
 	font-size: 20px;
 	margin-left: 50%;
+	margin-top: 5%;
+	background-color: #2a2c5a;
 	transform: translateX(-50%);
+	color: #fff;
+	font-family: verdana, 'sans-serif';
+	border-radius: 10%;
+	box-shadow: 9px 10px 30px black;
+	cursor: pointer;
+	transition: .3s linear;
+}
+button:hover {
+	background-color: #2f74b0;
+	width: 220px;
+	height: 60px;
 }
 #dane-programisty {
 	margin-left: 50%;
