@@ -15,6 +15,7 @@ button {
 	width: auto;
 	height: 400px;
 	background-color: darkslategrey;
+	text-align: center;
 }
 #dane-programisty p {
 	font-family: verdana, 'sans-serif';
