@@ -1,0 +1,24 @@
+
+button {
+	width: 200px;
+	height: 50px;
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+#dane-programisty {
+	margin-left: 50%;
+	margin-top: 50px;
+	transform: translateX(-50%);
+	border: 3px solid darkblue;
+	width: auto;
+	height: 400px;
+	background-color: darkslategrey;
+}
+#dane-programisty p {
+	font-family: verdana, 'sans-serif';
+	font-size: 40px;
+	color: azure;
+	border-bottom: 1px solid black;
+}
