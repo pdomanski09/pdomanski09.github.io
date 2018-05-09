@@ -1,0 +1,146 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #76E076;
+}
+#kontener {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#kwiatek {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: relative;
+  animation: animate 8s linear 0s infinite forwards; 
+}
+.platki {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+}
+.platek1 {
+  left: -40px;
+}
+.platek2 {
+  right: -40px;
+}
+.platek3 {
+  bottom: -15px;
+  left: -30px;
+}
+.platek4 {
+  bottom: -10px;
+  right: -40px;
+}
+.platek5 {
+  left: 40px;
+  top: -45px;
+}
+.platek6 {
+  bottom: -50px;
+  left: 45px;
+}
+
+#maska {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: relative;
+  top: -200px;
+  animation: none;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.eye {
+  widtH: 20px;
+  height: 30px;
+  background-color: #1f4c74;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+}
+.eye1 {
+  left: 130px;
+  top: 60px;
+}
+.eye2 {
+  left: 50px;
+  top: 30px;
+}
+#mouth {
+  width: 80px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  left: 60px;
+  top: 50px;
+}
+.mask2 {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+}
+.eye3 {
+  width: 40px;
+  height: 20px;
+  background-color: yellow;
+  position: relative;
+  top: -130px;
+  left: 40px;
+  animation: eyemask 2s linear 0s infinite forwards;
+  animation-delay: 3s;
+}
+@keyframes eyemask {
+  0% {
+    top: -130px;
+  }
+  10%{
+    top: -120px;
+  }
+  20% {
+    top: -116px;
+  }
+  30% {
+    top: -120px;
+  }
+  40% {
+    top: -130px;
+  }
+  50% {
+    top: -130px;
+  }
+  60% {
+    top: -130px;
+  }
+  70% {
+    top: -130px;
+  }
+  80% {
+    top: -130px;
+  }
+  90% {
+    top: -130px;
+  }
+  100% {
+    top: -130px;
+  }
+}
