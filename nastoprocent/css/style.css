@@ -1,0 +1,46 @@
+:root {
+        --light: 0.1;
+        --glow: 5px;
+    }
+    html {
+        font-size: 10px;
+        font-family: "Monda", sans-serif;
+    }
+    body {
+        margin: 0;
+        height: 100vh;
+        background: url(../img/love-560783.jpg);
+        background-size: cover;
+        background-position: bottom center;
+    }
+    .night {
+        height: 100vh;
+        background-color: black;
+        opacity: calc(1 - var(--light)); 
+        /*zmienna*/
+    }
+    .neon {
+       font-size: 3rem;
+        font-weight: 600;
+        color: #ff0047;
+        position: absolute; left: 5%; bottom: 3%;
+        letter-spacing: .5rem;
+        text-shadow: rgba(255, 255, 255, 0.8) 0 0 
+        calc(5 * var(--glow)), #ff0047 0 0 var(--glow);
+        opacity: var(--light);
+    }
+    .fa {
+        font-size: 6rem;
+        font-weight: 600;
+        letter-spacing: 1.5rem;
+    }
+    input {
+        position: absolute;
+        width: 200px;
+        top: 30px;
+        left: 30px;
+        height: 80px;
+    }
+    @media (min-width: 1024px) {
+        html {font-size: 20px;}
+    }
