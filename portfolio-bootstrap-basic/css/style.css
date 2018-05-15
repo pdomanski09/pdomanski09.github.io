@@ -1,0 +1,150 @@
+/* GENERAL STYLES START*/
+* {
+	box-sizing: border-box;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}
+.header-caption {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+h1 {
+	font-size: 4em;
+	color: #F2F2F2;
+	margin-bottom: 3%;
+	font-weight: 400;
+}
+h1 span {
+	color: #0D4937;
+	font-weight: 600;
+}
+p {
+	font-size: 1.2em;
+	margin-right: 5%
+}
+
+/* GENERAL STYLES END*/
+
+/* NAVIGATION START */
+
+#main-nav {
+	background-color: rgba(34,18,32, .3);
+}
+#main-nav a {
+	letter-spacing: 1px;
+	margin: 10px;
+	font-size: 1.2em;
+	font-weight: 500;
+	color: #e8e7e8;
+}
+.navbar-brand span {
+	font-size: 2em;
+}
+
+.navbar-toggler-icon {
+	font-weight: 800;
+	font-size: 3em;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 8%;
+	transition: all 2s;
+}
+.navbar-toggler-icon:hover {
+	box-shadow: 5px 0.5em 3em hsla(0,0%,0%,.9);
+}
+.nav-link span {
+	transition: 0.5s linear;
+}
+.nav-link span:hover {
+	color: brown;
+	font-weight: 800;
+}
+
+/* NAVIGATION END */
+
+/* HEADER START */
+#main-header {
+	background-image: url(../img/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+}
+#main-header .header-caption h2 {
+	font-size: 2em;
+	color: #F2F2F2;
+	font-weight: 400;
+}
+
+/* HEADER END */
+
+/* ABOUT SECTION START */
+
+.text-center {
+	color: black;
+}
+.aboutme {
+	width: 100%;
+	height: 80vh;
+	background-color: #E3DCC3;
+	overflow: hidden;
+}
+.aboutme figure {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+.aboutme-head {
+	margin-top: 10%;
+}
+.aboutme-content img {
+/*
+	max-height: 350px;
+    max-width: 100%;
+*/
+	width: 22em;
+	height: 25em;
+	border: 3px solid rgba(5,29,22, 0.6);
+	border-radius: 10px;
+	box-shadow: 5px 0.5em 3em;
+	margin: 5%;
+	float: left;
+}
+
+/* ABOUT SECTION END */
+
+/* SKILLS START */
+
+.skills {
+	width: 100%;
+	height: 60vh;
+	background-color: #E8F4F0;
+	overflow: hidden;
+}
+.skills .text-center {
+	margin-top: 20%;
+}
+
+.skills-icons-item {
+	position: relative;
+	top: -120px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.skills-icons-item img {
+	width: 100px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/* SKILLS END */
