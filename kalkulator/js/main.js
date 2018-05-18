@@ -18,12 +18,14 @@ var plus = document.getElementById("plus");
 var iloczyn = document.getElementById("iloczyn");
 var iloraz = document.getElementById("iloraz");
 
-var kropka = document.getElementById("kropka")
+var kropka = document.getElementById("kropka");
+var procentBtn = document.getElementById("procent");
 
 var del = document.getElementById("delete");
 var wyswietlacz = document.getElementById("wyswietlacz");
 
 var rownaSie = document.getElementById("rownasie");
+
 
 /* PROGRAMOWANIE PRZYCISKÓW */
 
@@ -136,6 +138,8 @@ kropka.addEventListener('click', function(e){
 	wyswietlacz.value += wartoscKropki;
 })
 
+
+//WYNIK
 rownaSie.addEventListener('click', function(e){
 	e.preventDefault();
 	
@@ -143,6 +147,14 @@ rownaSie.addEventListener('click', function(e){
 	wyswietlacz.value = wynik;
 });
 
+
+//WYNIK + PROCENT
+procentBtn.addEventListener('click', function(e){
+	e.preventDefault();
+	
+	var wynikProcent = eval(wyswietlacz.value * "%");
+	wyswietlacz.value = wynikProcent;
+});
 
 
 
