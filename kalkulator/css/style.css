@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+form {
+	padding: 20px;
+	border: 1px solid #c9b4b2;
+	background-color: #c9b4b2;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 2px 5px #433c3b;
+}
+input {
+	font-family: verdana, 'sans-serif';
+	font-size: 29px;
+	color: #161413;
+	font-weight: 500;
+	box-shadow: 2px 5px #433c3b;
+}
+input[type="text"] {
+	width: 300px;
+	height: 50px;
+	margin-left: 10px;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+
+input[type="button"] {
+	margin: 10px;
+	width: 60px;
+	height: 50px;
+	border-radius: 10%;
+}
+#delete, #zero {
+	width: 140px;
+}
