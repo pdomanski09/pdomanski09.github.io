@@ -13,7 +13,6 @@ html,body {
 	margin: 0 auto;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
 }
 h1 {
 	font-size: 4em;
@@ -70,6 +69,9 @@ p {
 /* NAVIGATION END */
 
 /* HEADER START */
+.header-caption {
+	transform: translateY(-50%);
+}
 #main-header {
 	background-image: url(../img/header-background.jpg);
 	background-repeat: no-repeat;
@@ -77,7 +79,7 @@ p {
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 70vh;
+	height: 700px;
 }
 #main-header .header-caption h2 {
 	font-size: 2em;
@@ -94,7 +96,7 @@ p {
 }
 .aboutme {
 	width: 100%;
-	height: 80vh;
+	height: 700px;
 	background-color: #E3DCC3;
 }
 .aboutme figure {
@@ -103,7 +105,10 @@ p {
 	margin: 0 auto;
 }
 .aboutme-head {
+	text-align: center;
+	margin: 0 auto;
 	margin-top: 5%;
+	margin-bottom: 2%;
 }
 .aboutme-content img {
 /*
