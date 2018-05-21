@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Portfolio bootstrap</title>
 
-	<!-- GOOGLE FONT AWESOME -->
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Bootstrap</title>
+    
+    <!-- GOOGLE FONT AWESOME -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    
+    <!-- GOOGLE ICONS -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0" >
+    
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	
+		<!-- GOOGLE FONT AWESOME -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 
 	<!-- GOOGLE ICONS -->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<!-- BOOTSTRAP CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-
-	<!-- VIEW PORT -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- MAIN STYLES -->
-	<link rel="stylesheet" href="css/style.css">
+	
+	    <!-- MAIN STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+	
 </head>
 
 <body>
-
-	<!-- MAIN NAV START -->
-
-	<nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+  
+   <!-- MAIN NAV START -->
+   
+   <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
 		<a class="navbar-brand" href="#"><span>Bootstrap Project</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
-</button>
+		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto w-100 justify-content-end">
 				<li class="nav-item">
-					<a class="nav-link" href="#omnie"><span>O mnie</span></a>
+					<a class="nav-link" href="#about"><span>O mnie</span></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#umiejetnosci"><span>Umiejętności</span></a>
@@ -46,67 +56,178 @@
 			</ul>
 		</div>
 	</nav>
+	
 	<!-- MAIN NAV END -->
 
 	<!-- HEADER START -->
-
-	<header id="main-header">
-		<div class="header-caption">
-			<h1 class="text-uppercase">Piotr <span>Domański</span></h1>
-			<h2>Front End Developer</h2>
-		</div>
-	</header>
-
-	<!-- HEADER END -->
+   
+    <header id="main-header">
+        <div class="header-content">
+            <h1 class="text-uppercase">Piotr<span> Domański</span></h1>
+            <h2>Front End Developer</h2>
+        </div>
+    </header>
+    
+    <!-- HEADER END -->
 
 	<!-- ABOUT ME START -->
-
-	<div class="container-fluid aboutme">
+<div class="container-fluid aboutme">
+	<section id="about">
 		<div class="row">
 			<div class="aboutme-head">
-				<h1 class="text-center">O <span>Mnie</span></h1>
+				<h3 class="text-center">O <span>mnie</span></h3>
 			</div>
 		</div>
-		<div class="row">
 		<div class="col-sm-6 aboutme-content">
 			<figure><img src="img/jan-nowak.jpg" alt=""></figure>
 		</div>
-		<div class="col-sm-6 text-justify">
-			<article>
-			<p class="aboutme-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aperiam, alias veritatis officiis earum, fuga! Aspernatur voluptates itaque pariatur, earum, iusto nam. Beatae ab modi sunt, excepturi id maiores, illum, consectetur esse, ex minima vel sint. Voluptate quibusdam, et iusto reprehenderit ipsum error repellendus a iure, beatae voluptatum! Quae, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam maxime, suscipit dignissimos deleniti explicabo, ullam voluptate quo eaque impedit esse repudiandae distinctio amet, tenetur nisi? Facilis reiciendis consectetur enim inventore.</p>
-			</article>
-		</div>
-		</div>
-	</div>
+
+		<article class="col-sm-6 text-justify">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ducimus, perferendis eligendi officia explicabo ipsam voluptate quisquam praesentium fugiat facere, iste voluptates excepturi fuga a soluta? Recusandae omnis voluptate vero possimus culpa incidunt, eius. Sint maxime maiores totam dolorem. Animi repellendus sed, suscipit debitis voluptatum ab veritatis eligendi natus ipsam itaque dolorum quod, cupiditate quae sit nihil id! Commodi eveniet in, voluptates, minima architecto qui quasi voluptate consequatur rerum ipsum excepturi dignissimos incidunt dolores atque, dolore corporis explicabo dicta eligendi optio laboriosam. Eos tempore, dicta quo id facere enim obcaecati nemo cumque sapiente aut, dolorem nobis unde iste quia rem.</p>
+		</article>
+
+	</section>
+</div>
 	<!-- ABOUT ME END -->
 	
 	<!-- MY SKILLS START-->
 	
 	<div class="container-fluid skills" id="umiejetnosci">
-		<div class="row">
-				<div class="header-caption skilss-head">
-				<h1 class="text-center">Moje <span>Umiejętności</span></h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam laboriosam sequi voluptatibus voluptatum quibusdam quae dolorem, ex obcaecati saepe nobis.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<figure class="skills-icons-item"><img src="icons/html5.png" alt="Html"><figcaption>HTML5</figcaption></figure>
-			</div>
-			<div class="col-md-3">
-				<figure class="skills-icons-item"><img src="icons/css3.png" alt="Css3"><figcaption>CSS3</figcaption></figure>
-			</div>
-			<div class="col-md-3">
-				<figure class="skills-icons-item"><img src="icons/js.png" alt="JavaScript">
-            <figcaption>JavaScript</figcaption></figure>
-			</div>
-			<div class="col-md-3">
-				<figure class="skills-icons-item"><img src="icons/jquery.png" alt="jQuery"><figcaption>jQuery</figcaption></figure>
-			</div>
-		</div>
+    <section id="skills">
+       <div class="row">
+        <h3 class="text-center">Moje <span>umiejętności</span></h3>
+		
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsam veritatis explicabo adipisci dolor expedita, debitis consequuntur magnam maiores, sequi quis quae libero cum tempore quasi. Quaerat voluptatem quos quis odit, voluptas sapiente, nam, similique asperiores saepe nostrum, dolor a!</p>
+        </article>
+        </div>
+      <div class="row">
+        <div id="skills-icons">
+            <figure class="col-md-2"><img src="icons/html5.png" alt="html">
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure class="col-md-2"><img src="icons/css3.png" alt="css">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure class="col-md-2"><img src="icons/js.png" alt="js">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="col-md-2"><img src="icons/jquery.png" alt="jq">
+                <figcaption>JQuery</figcaption>
+            </figure>
+        </div>
+	</div>
+    </section>
 	</div>
 	
 	<!-- MY SKILLS END -->
+  
+   	<!-- MY PORTFOLIO START -->
+   
+<section id="portfolio" class="container-fluid">
+	<div class="row">
+		<h3 class="text-center">Moje <span>portfolio</span></h3>
+	</div>
+
+	<div class="row portfolio-items">
+		<div class="portfolio-item" id="portfolio-item-1">
+			<div class="item-mask">
+				<div class="item-content">
+					<div class="item-content-inner">
+						<h4>Lorem ipsum</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quidem?</p>
+						<h5>Wykorzystane technologie</h5>
+						<p>HTML5, RWD, CSS3, Bootstrap, JavaScript, JQuery</p>
+						<a href="#"><i class="fa fa-link"></i></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-item" id="portfolio-item-2">
+			<div class="item-mask">
+				<div class="item-content">
+					<div class="item-content-inner">
+						<h4>Lorem ipsum</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, quasi.</p>
+						<h5>Wykorzystane technologie</h5>
+						<p>HTML5, RWD, CSS3, Bootstrap, JavaScript, JQuery</p>
+						<a href="#"><i class="fa fa-link"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="portfolio-item" id="portfolio-item-3">
+			<div class="item-mask">
+				<div class="item-content">
+					<div class="item-content-inner">
+						<h4>Lorem ipsum</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, consequatur.</p>
+						<h5>Wykorzystane technologie</h5>
+						<p>HTML5, RWD, CSS3, Bootstrap, JavaScript, JQuery</p>
+						<a href="#"><i class="fa fa-link"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    
+   	<!-- MY PORTFOLIO END -->
+   	
+   	<!-- CONTACT START -->
+   	
+    <section id="contact"  class="container-fluid">
+       <div class="row">
+        <div class="contact-data">
+            <h2 class="text-center contact-head">Piotr <span>Domański</span></h2><br><br><br>
+            <address>
+                ul.Mostowa 6/13<br>
+                31-061 Kraków<br><br>
+                tel:606 74 57 59<br>
+                e-mail:example@example.pl
+                </address>
+            <div class="contact-social-icons">
+                <ul>
+                    <li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a><i class="fa fa-twitter"></i></a></li>
+                    <li><a><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row contact-form">
+            <form>
+                <label for="name"></label>
+                <input type="text" name="imie" id="name" placeholder="Imię i Nazwisko">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <label for="message"></label>
+                <textarea name="message" id="message" placeholder="Wiadomość"></textarea>
+                <button type="submit" id="button">Wyślij!</button>
+            </form>
+        </div>
+        </div>
+    </section>
+        
+<!-- CONTACT END -->
+
+
+
+<!-- FOOTER START -->
+<div class="container-fluid">
+	<div class="row">
+		<footer class="footer">
+			<p>Copyright © Piotr Domański</p>
+		</footer>
+	</div>
+</div>
+<!-- FOOTER END -->
+	
+	
+	
+	
 
 	<!-- JQUERY LIBRAY -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -116,4 +237,5 @@
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 </body>
+
 </html>
