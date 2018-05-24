@@ -1,0 +1,56 @@
+#portfolio-image-background-1 {
+    background-image: $img1;
+}
+
+#portfolio-image-background-2 {
+    background-image: $img2;
+}
+
+#portfolio-image-background-3 {
+    background-image: $img3;
+}
+
+#portfolio-image-background-4 {
+    background-image: $img4;
+}
+
+#portfolio-image-background-5 {
+    background-image: $img5;
+}
+
+#portfolio-image-background-6 {
+    background-image: $img6;
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .portfolio-item {
+    background-color: $white-color;
+}
+
+#portfolio .portfolio-item .portfolio-image-background {
+	@include portfolio-image-background;
+}
+
+#portfolio .portfolio-image {
+    overflow: $hidden;
+}
+
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask {
+	@include portfolio-image-mask;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.2);
+}
+
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item figcaption {
+    text-align: $center;
+    padding: 10px;
+}

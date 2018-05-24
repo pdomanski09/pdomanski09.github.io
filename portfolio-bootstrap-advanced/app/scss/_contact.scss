@@ -1,0 +1,31 @@
+
+#contact {
+    background-image: $contact-bcg;
+}
+
+#contact .section-header, #contact .section-header .section-title {
+    color: $white-color;
+}
+
+#contact .contact-form .contact-form-column {
+	@include contact-form-column
+}
+
+#contact .contact-form .contact-form-column {
+	@include contact-form-column-input;
+}
+#contact .contact-form .contact-form-column {
+	@include contact-form-column-textarea;
+}
+
+#contact .contact-form .contact-form-column textarea {
+    height: $width-100procent;
+}
+
+#contact {
+	@include contact-type-submit;
+}
+
+#contact {
+	@include contact-type-submit-hover;
+}

@@ -1,0 +1,20 @@
+#main-footer {
+	padding: 10px 0;
+}
+
+#main-footer .copyright, #main-footer .footer-nav {
+	line-height: 50px;
+}
+
+#main-footer .footer-nav .footer-nav-item {
+	display: $inline-block;
+	margin-right: 10px;
+}
+
+#main-footer .footer-nav .footer-nav-item {
+	@include footer-nav-item-a;
+}
+
+#main-footer .footer-nav .footer-nav-item {
+	@include footer-nav-item-a-hover;
+}

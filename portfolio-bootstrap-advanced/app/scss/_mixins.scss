@@ -1,0 +1,172 @@
+//MIXIN GENERAL
+@mixin section-header {
+	margin-bottom: 70px;
+	text-align: $text-center;
+	width: $width-100procent;
+}
+
+@mixin section-title {
+	font-family: $montserrat-font;
+	color: #333;
+	text-transform: $text-uppercase;
+	margin-bottom: 25px;
+}
+
+@mixin section-caption {
+	font-family: $droid-font;
+}
+
+//MIXIN NAV
+@mixin main-nav {
+	background-color: transparent;
+    transition: all .5s;
+}
+
+@mixin navbar-band {
+	color: $white-color;
+	font-family: $droid-font;
+	font-size: 2em;
+}
+
+@mixin navbar-item {
+	color: $white-color;
+	text-transform: $text-uppercase;
+	font-family: $montserrat-font;
+	transition: all .3s;
+}
+
+//MIXIN HEADER
+@mixin main-head {
+	background-image: $head-background;
+	background-size: $background-cover;
+	background-position: $background-center;
+	height: 100vh;
+	color: $white-color;
+	display: $flex;
+	align-items: $center;
+	justify-content: $center;
+	text-align: $text-center;
+}
+
+@mixin header-captionh1 {
+	h2 {
+		font-family: $montserrat-font;
+		font-size: 3em;
+	}
+}
+
+@mixin header-captionh2 {
+	h1 {
+	font-family: $montserrat-font;
+	font-size: 4em;
+	margin: 45px 0;
+	}
+}
+
+@mixin read-more {
+	background-color: #0ed8d6;
+	border: $services-border;
+	font-family: $montserrat-font;
+	color: $white-color;
+	transition: all .3s;
+	padding: 15px 30px;
+}
+
+@mixin fa {
+	background-color: #0ed8d6;
+    border: $services-border;
+    width: 80px;
+    height: 80px;
+    color: $white-color;
+    line-height: 80px;
+    border-radius: $border-radius;
+    font-size: 1.8em;
+    transition: $transition;
+    cursor: $cursor-pointer;
+}
+
+//MIXIN PORTFOLIO
+
+@mixin portfolio-image-background {
+    height: 300px;
+    background-position: $center;
+    background-size: $cover;
+    position: $relative;
+    transition: $transition;	
+}
+
+@mixin portfolio-image-mask {
+	position: $absolute;
+    width: $width-100procent;
+    height: $width-100procent;
+    background-color: rgba(14, 216, 214, 0.85);
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+    color: $white-color;
+    cursor: $cursor-pointer;
+    font-size: 2em;
+    opacity: 0;
+    transition: $transition;
+}
+
+//MIXIN CONTACT
+
+@mixin contact-form-column {
+	height: 220px;
+    display: $flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin contact-form-column-input {
+	input {
+	padding: 15px;
+    border-radius: 4px;
+    text-transform: $text-uppercase;
+	}
+}
+@mixin contact-form-column-textarea {
+	textarea {
+	padding: 15px;
+    border-radius: 4px;
+    text-transform: $text-uppercase;
+	}
+}
+
+@mixin contact-type-submit {
+	input[type="submit"] {
+	background-color: #0ed8d6;
+    border: $services-border;
+    color: $white-color;
+    margin-top: 30px;
+    transition: $transition;
+    cursor: $cursor-pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-transform: $text-uppercase;
+	}
+}
+
+@mixin contact-type-submit-hover {
+	input[type="submit"]:hover {
+	background-color: $white-color;
+    color: #0ed8d6;
+	}
+}
+
+//MIXIN FOOTER
+@mixin footer-nav-item-a {
+	a {
+	color: #777;
+	font-family: $montserrat-font;
+	text-decoration: none;
+	transition: all .3s;
+	}
+}
+
+@mixin footer-nav-item-a-hover {
+	a:hover {
+		color: #0ed8d6;
+	}
+}

@@ -1,0 +1,21 @@
+#main-header {
+	@include main-head;
+}
+
+#main-header .header-caption {
+	@include header-captionh1;
+}
+
+#main-header .header-caption {
+	@include header-captionh2;
+}
+
+#main-header .header-caption .read-more {
+	@include read-more;
+}
+
+#main-header .header-caption .read-more:hover {
+	background-color: $white-color;
+	border: $services-border;
+	color: #0ed8d6;
+}

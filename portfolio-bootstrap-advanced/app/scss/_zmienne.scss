@@ -1,0 +1,48 @@
+//FONTS:
+$roboto-font: 'Roboto Slab', serif;
+$montserrat-font: 'Montserrat', sans-serif;
+$droid-font: 'Droid Serif', sans-serif;
+$text-uppercase: uppercase;
+
+//COLORS
+$body-color: #777;
+$h3-color: #333;
+$white-color: #fff;
+$black-color: #000;
+
+//H3
+$h3-font-size: 1.2em;
+$h3-margin-top: 20px;
+$h3-margin-bottom: 10px;
+
+//OTHER
+$section-padding: 60px 0;
+$border-radius: 50%;
+$width-100procent: 100%;
+$text-center: center;
+$center: center;
+$cover: cover;
+$transition: all 1s;
+$services-border: 1px solid #0ed8d6;
+$cursor-pointer: pointer;
+$relative: relative;
+$absolute: absolute;
+$inline-block: inline-block;
+$hidden: hidden;
+$flex: flex;
+
+//HEAD STYLE
+$head-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+$background-cover: cover;
+$background-center: center;
+
+//PORTFOLIO
+$img1: url("../img/portfolio/box_of_cookies.jpg");
+$img2: url("../img/portfolio/chaotic_paint.jpg");
+$img3: url("../img/portfolio/chestnut_on_bracket.jpg");
+$img4: url("../img/portfolio/child_with_blue_paint.jpg");
+$img5: url("../img/portfolio/house_with_blue_doors.jpg");
+$img6: url("../img/portfolio/typing_on_laptop.jpg");
+	
+//CONTACT
+$contact-bcg: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
