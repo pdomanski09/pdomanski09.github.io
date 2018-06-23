@@ -1,0 +1,164 @@
+/* SECTION HEADER START */
+
+/* TO PORTRAIT */
+
+@media (max-width: 320px) {
+    .header-content h1 {
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
+    .header-content h2 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 55%;
+    }
+    .h3-content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
+    .header-content h1 {
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
+    .header-content h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 55%;
+    }
+    .h3-content h3 {
+        font-size: 2rem;
+        font-weight: 300
+    }
+}
+
+@media (min-width: 540px) and (max-width: 740px) and (orientation: portrait) {
+    .header-content h1 {
+        margin-bottom: 10%;
+        font-size: 3rem;
+    }
+    .header-content h2 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 55%;
+    }
+    .h3-content h3 {
+        font-size: 2rem;
+        font-weight: 400
+    }
+}
+
+
+/* TO LANDSCAPE */
+
+@media (min-width: 320) and (max-width: 390) and (orientation: landscape) {
+    .header-content h1 {
+        margin-bottom: 1%;
+        font-size: 1rem;
+    }
+    .header-content h2 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 45%;
+    }
+      .h3-content h3 {
+    font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 540px) and (orientation: landscape) {
+    .header-content h1 {
+        margin-bottom: 1%;
+        font-size: 2rem;
+    }
+    .header-content h2 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 55%;
+    }
+    .h3-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    }
+    .h3-content {
+        top: 30%;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 740px) and (orientation: landscape) {
+    .header-content h1 {
+        margin-bottom: 5%;
+        font-size: 2.5rem;
+    }
+    .header-content h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 55%;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1000px) and (orientation: landscape) {
+        .header-content h1 {
+        margin-bottom: 2%;
+        font-size: 3rem;
+    }
+    .header-content h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #main-header {
+        height: 100vh;
+    }
+    .header-content {
+        top: 55%;
+    }
+}
+}
+
+/* SECTION HEADER END */

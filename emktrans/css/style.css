@@ -1,0 +1,257 @@
+/* GENERAL STYLES START*/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10px;
+}
+
+.navbar span {
+    color: #F6F7F8;
+    font-size: 2rem;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    color: #F6F7F8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.h3-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* GENERAL STYLES END*/
+
+#arrow {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: transparent;
+    margin: 5%;
+    position: fixed;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+    transition: .7s all linear;
+    text-shadow: 0px -15px 0 white, 0px -30px 0 white;
+}
+
+.fa-chevron-up {
+    animation: arrow-animation 1s infinite linear;
+}
+
+#arrow:hover {
+    background-color: rgba(51,63,79, 1);
+}
+
+#arrow i {
+    font-size: 1rem;
+    color: #F6F7F8;
+}
+
+/* NAVBAR STYLES START*/
+
+#main-header {
+    width: 100vw;
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .9), rgba(0,10,10, .5)), url(../img/truck1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(51,63,79, .4);
+}
+
+#main-nav.scroll {
+    background-color: rgba(51,63,79, .9);  /* JavaScript addClass */
+}
+
+.navbar-brand span {
+    font-weight: 600;
+}
+
+.nav-link {
+    margin: 10px;
+    height: 50px;
+    transition: .8s all;
+}
+.nav-link:hover {
+    margin: 10px;
+    border-bottom: 2px solid #f4364c;
+}
+
+.nav-link span {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* NAVBAR STYLES END*/
+
+/* HEADER CONTENT START */
+
+.header-content {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #F6F7F8;
+}
+
+.header-content h1, h2 {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.header-content h1 {
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+.header-content h1 span {
+    color: #f4364c;
+    font-weight: 700;
+}
+
+.header-content h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-check-offer {
+    background-color: #f4364c;
+    border: .1px solid #f4364c;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+.btn-check-offer:hover {
+    background-color: #C32B3C;
+    border: .1px solid #C32B3C;
+}
+
+/* HEADER CONTENT END */
+
+
+/* START SECTION START */
+
+#start {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.h3-content h3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.found-us-btn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* START SECTION END */
+
+#offer {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.booklet-btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+#additional {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#map {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* COPYRIGHT START */
+.footer {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+/* COPYRIGHT END */
