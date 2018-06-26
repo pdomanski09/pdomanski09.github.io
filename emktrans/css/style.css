@@ -34,37 +34,42 @@ h3 {
 
 /* GENERAL STYLES END*/
 
+/* ARROW START */
+
 #arrow {
-    width: 40px;
-    height: 40px;
-    background-color: white;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 100;
-    background-color: transparent;
+    background-color: rgba(63,68,71, .5);
     margin: 5%;
     position: fixed;
     cursor: pointer;
     overflow: hidden;
     display: none;
     transition: .7s all linear;
-    text-shadow: 0px -15px 0 white, 0px -30px 0 white;
+/*    text-shadow: 0px -15px 0 white, 0px -30px 0 white;*/
+    border: .1px;
 }
 
 .fa-chevron-up {
-    animation: arrow-animation 1s infinite linear;
+/*    animation: arrow-animation 1s infinite linear;*/
 }
 
 #arrow:hover {
-    background-color: rgba(51,63,79, 1);
+/*    background-color: rgba(63,68,71, 1);*/
+    background-color: #f4364c;
 }
 
 #arrow i {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #F6F7F8;
 }
+
+/* ARROW END */
 
 /* NAVBAR STYLES START*/
 
@@ -87,11 +92,11 @@ h3 {
     font-family: 'Open Sans',sans-serif;
     font-size: 1rem;
     color: white;
-    background-color: rgba(51,63,79, .4);
+    background-color: rgba(63,68,71, .1);
 }
 
 #main-nav.scroll {
-    background-color: rgba(51,63,79, .9);  /* JavaScript addClass */
+    background-color: rgba(63,68,71, 1);  /* JavaScript addClass */
 }
 
 .navbar-brand span {
@@ -129,7 +134,8 @@ h3 {
 .header-content {
     position: absolute;
     top: 45%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #F6F7F8;
 }
@@ -151,10 +157,12 @@ h3 {
 .header-content h2 {
     font-size: 2rem;
     font-weight: 500;
-    margin-left: 10%;
-    margin-right: 10%;
+    color: white;
 }
 
+#typewriter-prefix {
+    color: #f4364c;
+}
 .btn-check-offer {
     background-color: #f4364c;
     border: .1px solid #f4364c;
