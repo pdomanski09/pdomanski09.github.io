@@ -193,6 +193,31 @@ h3 {
     position: relative;
 }
 
+#start .fas {
+	color: #F6F7F8;
+	background-color: #C32B3C;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 2rem;
+	border: 1px solid #C32B3C;
+	text-align: center;
+	line-height: 100px;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+#start .fas:hover {
+	color: #C32B3C;
+	border: 1px solid #C32B3C;
+	background-color: transparent;
+	transform: rotate(360deg);
+}
+
+#start h4 {
+	color: #F6F7F8;
+	text-transform: uppercase;
+}
 
 /* START SECTION END */
 
