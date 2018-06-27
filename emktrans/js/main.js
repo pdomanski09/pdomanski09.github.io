@@ -37,3 +37,11 @@ $('#typewriter').typewriter({
 	waitingTime : 3500,
 	blinkSpeed : 900
 });
+
+
+
+
+
+
+
+

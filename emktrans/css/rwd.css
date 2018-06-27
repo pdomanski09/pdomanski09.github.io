@@ -2,7 +2,7 @@
 
 /* TO PORTRAIT */
 
-@media (max-width: 320px) {
+@media (max-width: 320px) and (orientation: portrait) {
     .header-content h1 {
         margin-bottom: 5%;
         font-size: 2rem;
@@ -22,6 +22,9 @@
     .h3-content h3 {
         font-size: 1.5rem;
     }
+	#order {
+		height: 135vh;
+	}
 }
 
 @media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
@@ -45,9 +48,13 @@
         font-size: 2rem;
         font-weight: 300
     }
+	#order {
+		height: 130vh;
+	}
+
 }
 
-@media (min-width: 540px) and (max-width: 740px) and (orientation: portrait) {
+@media (min-width: 541px) and (max-width: 740px) and (orientation: portrait) {
     .header-content h1 {
         margin-bottom: 10%;
         font-size: 3rem;
@@ -68,6 +75,9 @@
         font-size: 2rem;
         font-weight: 400
     }
+	#order {
+		height: 100vh;
+	}
 }
 
 
@@ -93,6 +103,9 @@
       .h3-content h3 {
     font-size: 1.5rem;
     }
+	#order {
+		height: 135vh;
+	}
 }
 
 
@@ -120,6 +133,9 @@
     .h3-content {
         top: 30%;
     }
+	#order {
+		height: 130vh;
+	}
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: landscape) {
@@ -134,11 +150,14 @@
         margin-right: 10%;
     }
     #main-header {
-        height: 100vh;
+        height: 115vh;
     }
     .header-content {
         top: 55%;
     }
+	#order {
+		height: 180vh;
+	}
 }
 
 @media (min-width: 740px) and (max-width: 1000px) and (orientation: landscape) {
@@ -158,6 +177,9 @@
     .header-content {
         top: 55%;
     }
+	#order {
+		height: 90vh;
+	}
 }
 }
 

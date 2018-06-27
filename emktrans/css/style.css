@@ -246,7 +246,7 @@ section {
 
 #offer {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck4.jpg);
     background-position: center;
     background-size: cover;
