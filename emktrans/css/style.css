@@ -36,6 +36,12 @@ section {
 	padding: 60px 0;
 }
 
+.section-header {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* GENERAL STYLES END*/
 
 /* ARROW START */
@@ -184,12 +190,12 @@ section {
 /* HEADER CONTENT END */
 
 
-/* START SECTION START */
+/* ORDER SECTION START */
 
 #order {
     width: 100%;
-    height: 40vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck10.jpg);
+    height: 60vh;
+    background-image: linear-gradient(to top, rgba(63,68,71, .2), rgba(63,68,71, .9)), url(../img/truck10.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -211,10 +217,6 @@ section {
 	cursor: pointer;	
 }
 
-.fas-ico {
-
-}
-
 #order .fas:hover {
 	color: #C32B3C;
 	border: 1px solid #C32B3C;
@@ -228,7 +230,19 @@ section {
 	margin-top: 20px;
 }
 
-/* START SECTION END */
+.section-header h2 {
+    text-transform: uppercase;
+    color: #F6F7F8;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section-header p {
+    color: #F6F7F8;
+    font-size: 1.5rem;
+}
+
+/* ORDER SECTION END */
 
 #offer {
     width: 100%;
@@ -268,7 +282,7 @@ section {
 #map {
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck5.jpg);
+/*    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck5.jpg);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
