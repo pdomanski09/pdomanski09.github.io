@@ -290,8 +290,8 @@ section {
     color: #F6F7F8;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
-    margin-left: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .contact-data h1 {
