@@ -32,9 +32,11 @@ h3 {
     transform: translate(-50%, -50%);
 }
 
+/*
 section {
 	padding: 60px 0;
 }
+*/
 
 .section-header {
     position: relative;
@@ -44,6 +46,7 @@ section {
 
 /* GENERAL STYLES END*/
 
+/*HEADER START */
 /* ARROW START */
 
 #arrow {
@@ -110,8 +113,13 @@ section {
     background-color: rgba(63,68,71, 1);  /* JavaScript addClass */
 }
 
-.navbar-brand span {
-    font-weight: 600;
+.navbar-brand span:nth-child(1) {
+    font-weight: 700;
+    color: rgb(191, 159, 98);
+}
+
+.navbar-brand span:nth-child(2) {
+    font-weight: 400;
 }
 
 .nav-link {
@@ -149,6 +157,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    margin: 0;
     color: #F6F7F8;
 }
 
@@ -260,24 +269,57 @@ section {
     left: 50%;
     transform: translate(-50%);
 }
-#additional {
-    width: 100%;
-    height: 60vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
+/* SECTION CONTACT START */
 
 #contact {
     width: 100%;
-    height: 60vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck6.jpg);
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(0,10,10, .7), rgba(0,10,10, .9)), url(../img/MK-TRANS-logo-kolor.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
+
+.contact-container {
+    height: 100%;
+}
+
+.contact-data {
+    color: #F6F7F8;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10%;
+}
+
+.contact-data h1 {
+    font-size: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 8%;
+}
+
+.contact-data h1 span {
+    color: rgb(191, 159, 98);
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-data address {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+/* SECTION CONTACT END */
 
 #map {
     width: 100%;
@@ -289,6 +331,7 @@ section {
     background-attachment: fixed;
     overflow: hidden;
 }
+
 
 /* COPYRIGHT START */
 .footer {

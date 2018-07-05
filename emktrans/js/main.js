@@ -32,7 +32,7 @@ $(window).scroll(function () {
 
 //type text in header
 $('#typewriter').typewriter({
-	prefix : "<div id='typewriter-prefix'># Transport przestrzenny </div>",
+	prefix : "<div id='typewriter-prefix'># USŁUGI TRANSPORTOWE </div>",
 	text : ["Megi zestawy", "Wyszków, Łochów i okolice...", "Bezpiecznie, profesjonalnie i terminowo!", "Sprawdź naszą ofertę !"],
 	typeDelay : 50,
 	waitingTime : 3500,

@@ -37,7 +37,7 @@
 
         <!-- NAVIGATION START -->
         <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand" href="#"><span>mktrans24.pl</span></a>
+            <a class="navbar-brand" href="#"><span>mk</span><span>trans24.pl</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -65,7 +65,7 @@
 
         <a href="#main-header"><button id="arrow"><i class="fa fa-chevron-up"></i></button></a>
 
-        <div class="header-content">
+        <div class="header-content container">
             <h1><span>All-in-one</span> Transport i Spedycja</h1><br />
             <h2 id="typewriter"></h2><br /><br />
             <a href="#start"><button type="button" class="btn btn-danger btn-check-offer">Sprawdź ofertę</button></a>
@@ -77,13 +77,13 @@
     <!-- SECTION OFFER START -->
 
     <section id="order">
-        <div class="container text-center">
-           <div class="row">
-               <hgroup class="section-header">
-                   <h2 class="section-title">zamów</h2>
-                   <p class="section-caption">Aby zamówić kurs wybierz jedną z poniższych opcji</p>
-               </hgroup>
-           </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <hgroup class="section-header">
+                    <h2 class="section-title">zamów</h2>
+                    <p class="section-caption">Aby zamówić kurs wybierz jedną z poniższych opcji</p>
+                </hgroup>
+            </div>
             <div class="row fa-icony">
                 <article class="col-md-4 fas-ico">
                     <i class="fas fa-mobile-alt"></i>
@@ -110,12 +110,36 @@
 
     </section>
 
-    <section id="additional">
-
-    </section>
-
     <section id="contact">
-
+        <div class="container-fluid  contact-container">
+            <div class="row contact-container">
+                <hgroup class="contact-content col-md-6">
+                    <div class="contact-data">
+                        <h1>Krzysztof
+                            <span>Krzewiński</span>
+                        </h1>
+                        <br />
+                        <address>Ul. Sosnowa 29
+						<br />
+						07-130 Łochów
+						<br />
+						NIP: PL8221782904
+						<br />
+						<br />
+						Tel. 500 005 205
+						<br />
+						e-mail:&nbsp;&nbsp;<a href="mailto:kluczesobolew@tlen.pl">krzysiekkrzewinski@wp.pl</a>
+						</address>
+                    </div>
+                </hgroup>
+                <form action="kontakt.php" method="post" autocomplete="on" class="col-md-6 contact-form">
+                    <input type="text" name="name" placeholder="Imię i nazwisko" required/>
+					<input type="email" name="email" placeholder="Adres e-mail" required/>
+					<textarea name="message" placeholder="Wiadomość" required></textarea>
+					<button id="submit" name="submit" type="submit" value="Wyślij"></button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <footer id="map">
@@ -144,7 +168,7 @@
     <!-- MAIN JS -->
     <script src="js/jquery.typewriter.js"></script>
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>

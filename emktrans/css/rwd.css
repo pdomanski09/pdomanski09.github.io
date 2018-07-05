@@ -9,6 +9,7 @@
 	}
 	.navbar {
 		background-color: rgba(63, 68, 71, .9);
+        height: 70px;
 	}
 	.nav-link span {
 		font-weight: 600;
@@ -24,8 +25,8 @@
 	.header-content h2 {
 		font-size: 1rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 100vh;
@@ -39,6 +40,10 @@
 	#order {
 		height: 135vh;
 	}
+    .section-caption {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
@@ -49,8 +54,8 @@
 	.header-content h2 {
 		font-size: 1.5rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 100vh;
@@ -65,6 +70,10 @@
 	#order {
 		height: 130vh;
 	}
+    .section-caption {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
 }
 
@@ -76,8 +85,8 @@
 	.header-content h2 {
 		font-size: 1.7rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 100vh;
@@ -92,6 +101,10 @@
 	#order {
 		height: 100vh;
 	}
+    .section-caption {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 
@@ -105,8 +118,8 @@
 	.header-content h2 {
 		font-size: 1rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 100vh;
@@ -120,6 +133,10 @@
 	#order {
 		height: 135vh;
 	}
+    .section-caption {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 
@@ -131,8 +148,8 @@
 	.header-content h2 {
 		font-size: 1rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 100vh;
@@ -150,6 +167,10 @@
 	#order {
 		height: 130vh;
 	}
+    .section-caption {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: landscape) {
@@ -160,8 +181,8 @@
 	.header-content h2 {
 		font-size: 1.5rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 115vh;
@@ -182,8 +203,8 @@
 	.header-content h2 {
 		font-size: 1.5rem;
 		font-weight: 500;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#main-header {
 		height: 100vh;
