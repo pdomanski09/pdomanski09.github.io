@@ -1,9 +1,11 @@
 /* GENERAL STYLES START*/
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -47,6 +49,7 @@ section {
 /* GENERAL STYLES END*/
 
 /*HEADER START */
+
 /* ARROW START */
 
 #arrow {
@@ -57,23 +60,23 @@ section {
     right: 0;
     bottom: 0;
     z-index: 100;
-    background-color: rgba(63,68,71, .5);
+    background-color: rgba(63, 68, 71, .5);
     margin: 5%;
     position: fixed;
     cursor: pointer;
     overflow: hidden;
     display: none;
     transition: .7s all linear;
-/*    text-shadow: 0px -15px 0 white, 0px -30px 0 white;*/
+    /*    text-shadow: 0px -15px 0 white, 0px -30px 0 white;*/
     border: .1px;
 }
 
 .fa-chevron-up {
-/*    animation: arrow-animation 1s infinite linear;*/
+    /*    animation: arrow-animation 1s infinite linear;*/
 }
 
 #arrow:hover {
-/*    background-color: rgba(63,68,71, 1);*/
+    /*    background-color: rgba(63,68,71, 1);*/
     background-color: #f4364c;
 }
 
@@ -89,7 +92,7 @@ section {
 #main-header {
     width: 100vw;
     height: 80vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .9), rgba(0,10,10, .5)), url(../img/truck1.jpg);
+    background-image: linear-gradient(to top, rgba(0, 10, 10, .9), rgba(0, 10, 10, .5)), url(../img/truck1.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,15 +105,16 @@ section {
     height: 60px;
     text-align: center;
     margin: 0 auto;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     color: white;
-    background-color: rgba(63,68,71, .1);
-	text-transform: uppercase;
+    background-color: rgba(63, 68, 71, .1);
+    text-transform: uppercase;
 }
 
 #main-nav.scroll {
-    background-color: rgba(63,68,71, 1);  /* JavaScript addClass */
+    background-color: rgba(63, 68, 71, 1);
+    /* JavaScript addClass */
 }
 
 .navbar-brand span:nth-child(1) {
@@ -127,6 +131,7 @@ section {
     height: 50px;
     transition: .8s all;
 }
+
 .nav-link:hover {
     margin: 10px;
     border-bottom: 2px solid #f4364c;
@@ -161,8 +166,9 @@ section {
     color: #F6F7F8;
 }
 
-.header-content h1, h2 {
-    font-family: 'Open Sans',sans-serif;
+.header-content h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header-content h1 {
@@ -184,6 +190,7 @@ section {
 #typewriter-prefix {
     color: #f4364c;
 }
+
 .btn-check-offer {
     background-color: #f4364c;
     border: .1px solid #f4364c;
@@ -198,13 +205,12 @@ section {
 
 /* HEADER CONTENT END */
 
-
 /* ORDER SECTION START */
 
 #order {
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(to top, rgba(63,68,71, .2), rgba(63,68,71, .9)), url(../img/truck10.jpg);
+    background-image: linear-gradient(to top, rgba(63, 68, 71, .2), rgba(63, 68, 71, .9)), url(../img/truck10.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,30 +219,30 @@ section {
 }
 
 #order .fas {
-	color: #F6F7F8;
-	background-color: #C32B3C;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	font-size: 2rem;
-	border: 1px solid #C32B3C;
-	text-align: center;
-	line-height: 100px;
-	transition: all 1s;
-	cursor: pointer;	
+    color: #F6F7F8;
+    background-color: #C32B3C;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: 1px solid #C32B3C;
+    text-align: center;
+    line-height: 100px;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 #order .fas:hover {
-	color: #C32B3C;
-	border: 1px solid #C32B3C;
-	background-color: transparent;
-	transform: rotate(360deg);
+    color: #C32B3C;
+    border: 1px solid #C32B3C;
+    background-color: transparent;
+    transform: rotate(360deg);
 }
 
 #order h4 {
-	color: #F6F7F8;
-	text-transform: uppercase;
-	margin-top: 20px;
+    color: #F6F7F8;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .section-header h2 {
@@ -256,7 +262,7 @@ section {
 #offer {
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck4.jpg);
+    background-image: linear-gradient(to top, rgba(0, 10, 10, .2), rgba(0, 10, 10, .9)), url(../img/truck4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,7 +281,7 @@ section {
 #contact {
     width: 100%;
     height: 80vh;
-    background-image: linear-gradient(to top, rgba(0,10,10, .6), rgba(0,10,10, .7)), url(../img/MK-TRANS-logo-kolor.jpg);
+    background-image: linear-gradient(to top, rgba(0, 10, 10, .6), rgba(0, 10, 10, .7)), url(../img/MK-TRANS-logo-kolor.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,8 +297,9 @@ section {
     position: relative;
     top: 50%;
     left: 60%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     margin-left: 5%;
+    text-shadow: 5px 5px 5px black;
 }
 
 .contact-data h1 {
@@ -315,9 +322,75 @@ section {
     font-style: italic;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-data address a {
+    color: #C32B3C;
+}
+
+.contact-form {
+    height: 100%;
+}
+
+.contact-form-content {
     width: 100%;
-    padding: 10px;
+    padding: 5%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-form input {
+    margin-bottom: 3%;
+    height: 40px;
+}
+
+.contact-form textarea {
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    border-radius: 0px;
+    border: 0px solid #6c747a;
+    background-color: rgba(108, 116, 122, .4);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    background-color: rgba(108, 116, 122, .9);
+}
+
+.contact-form button {
+    background-color: #C32B3C;
+    border: 1px #C32B3C solid;
+    color: #F6F7F8;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 30px;
+    float: right;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+
+.contact-form button:hover {
+    background-color: #F6F7F8;
+    color: #C32B3C;
+    border: 1px #C32B3C solid;
 }
 
 /* SECTION CONTACT END */
@@ -325,7 +398,7 @@ section {
 #map {
     width: 100%;
     height: 60vh;
-/*    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck5.jpg);*/
+    /*    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck5.jpg);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -335,6 +408,7 @@ section {
 
 
 /* COPYRIGHT START */
+
 .footer {
     width: 100%;
     height: 20px;
@@ -346,4 +420,5 @@ section {
     text-align: center;
     margin: 0;
 }
+
 /* COPYRIGHT END */
