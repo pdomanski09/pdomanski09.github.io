@@ -346,7 +346,7 @@ h2 {
 
 .contact-form textarea {
     min-height: 140px;
-    max-height: 140px;
+    max-height: 200px;
 }
 
 .contact-form input,
