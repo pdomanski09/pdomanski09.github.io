@@ -218,6 +218,24 @@ h2 {
     position: relative;
 }
 
+.order-container {
+    height: 100%;
+}
+
+.order-header {
+    height: 50%;
+}
+
+.fa-icony {
+    height: 50%;
+}
+
+.fas-ico {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 #order .fas {
     color: #F6F7F8;
     background-color: #C32B3C;
@@ -243,6 +261,13 @@ h2 {
     color: #F6F7F8;
     text-transform: uppercase;
     margin-top: 20px;
+}
+
+.section-header {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .section-header h2 {
@@ -369,7 +394,7 @@ h2 {
 
 .contact-form input:focus, 
 .contact-form textarea:focus {
-    background-color: rgba(108, 116, 122, .9);
+    background-color: rgba(108, 116, 122, 1);
 }
 
 .contact-form button {
