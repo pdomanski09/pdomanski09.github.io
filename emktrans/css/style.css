@@ -209,7 +209,7 @@ h2 {
 
 #order {
     width: 100%;
-    height: 60vh;
+/*    height: 60vh;*/
     background-image: linear-gradient(to top, rgba(63, 68, 71, .2), rgba(63, 68, 71, .9)), url(../img/truck10.jpg);
     background-position: center;
     background-size: cover;
@@ -231,9 +231,11 @@ h2 {
 }
 
 .fas-ico {
+    margin-top: 2%;
+    margin-bottom: 9%;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+/*    transform: translateY(-50%);*/
 }
 
 #order .fas {
@@ -257,6 +259,13 @@ h2 {
     transform: rotate(360deg);
 }
 
+#order .fas:focus {
+    color: #C32B3C;
+    border: 1px solid #C32B3C;
+    background-color: transparent;
+    transform: rotate(360deg);
+}
+
 #order h4 {
     color: #F6F7F8;
     text-transform: uppercase;
@@ -264,14 +273,21 @@ h2 {
 }
 
 .section-header {
+/*
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding-top: 2%;
+*/
 }
 
 .section-header h2 {
+/*
+    position: relative;
+    margin-top: 2%;
+*/
+    margin-top: 5%;
     text-transform: uppercase;
     color: #F6F7F8;
     font-size: 3rem;
@@ -306,12 +322,13 @@ h2 {
 
 #contact {
     width: 100%;
-    height: 80vh;
+/*    height: 80vh;*/
     background-image: linear-gradient(to top, rgba(0, 10, 10, .6), rgba(0, 10, 10, .7)), url(../img/MK-TRANS-logo-kolor.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    overflow: hidden;
 }
 
 .contact-container {

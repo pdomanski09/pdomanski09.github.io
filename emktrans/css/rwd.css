@@ -44,6 +44,12 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
@@ -68,13 +74,18 @@
 		font-weight: 300
 	}
 	#order {
-		height: 130vh;
+/*		height: 130vh;*/
 	}
     .section-caption {
         margin-left: 5%;
         margin-right: 5%;
     }
-
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: portrait) {
@@ -99,11 +110,17 @@
 		font-weight: 400
 	}
 	#order {
-		height: 100vh;
+/*		height: 100vh;*/
 	}
     .section-caption {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
     }
 }
 
@@ -136,6 +153,12 @@
     .section-caption {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
     }
 }
 
@@ -171,6 +194,12 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: landscape) {
@@ -191,8 +220,14 @@
 		top: 55%;
 	}
 	#order {
-		height: 180vh;
+/*		height: 180vh;*/
 	}
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
+    }
 }
 
 @media (min-width: 740px) and (max-width: 1000px) and (orientation: landscape) {
@@ -213,10 +248,14 @@
 		top: 55%;
 	}
 	#order {
-		height: 90vh;
+/*		height: 90vh;*/
 	}
-}
-
+    .section-header h2 {
+        margin-top: 10%;
+    }
+    #map {
+        height: 100vh;
+    }
 }
 
 /* SECTION HEADER END */
