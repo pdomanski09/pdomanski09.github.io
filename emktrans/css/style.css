@@ -152,6 +152,11 @@ section {
 
 }
 
+.navbar-toggler {
+    position: relative;
+    right: -10px;
+}
+
 /* NAVBAR STYLES END*/
 
 /* HEADER CONTENT START */
