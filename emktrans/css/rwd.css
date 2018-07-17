@@ -38,7 +38,7 @@
 		font-size: 1.5rem;
 	}
 	#order {
-		height: 135vh;
+/*		height: 135vh;*/
 	}
     .section-caption {
         margin-left: 5%;
@@ -50,8 +50,24 @@
     #map {
         height: 100vh;
     }
+    .contact-data {
+        margin-left: 5px;
+        margin-top: 5%;
+    }
     .contact-data h1 {
+        font-size: 2rem;
+    }
+    .contact-data address {
         font-size: 1.5rem;
+    }
+    .contact-data address a::before {
+        content: '\A';
+    }
+    .contact-form button {
+        margin-bottom: 20px;
+    }
+    .contact-form-content {
+        top: 40%;
     }
 }
 
@@ -113,10 +129,10 @@
 @media (min-width: 541px) and (max-width: 740px) and (orientation: portrait) {
 	.header-content h1 {
 		margin-bottom: 10%;
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.header-content h2 {
-		font-size: 1.7rem;
+		font-size: 2rem;
 		font-weight: 500;
 		margin-left: 5%;
 		margin-right: 5%;
@@ -128,7 +144,7 @@
 		top: 55%;
 	}
 	.h3-content h3 {
-		font-size: 2rem;
+		font-size: 3rem;
 		font-weight: 400
 	}
 	#order {
@@ -143,6 +159,25 @@
     }
     #map {
         height: 100vh;
+    }
+    .contact-data {
+        margin-left: 5px;
+        margin-top: 5%;
+    }
+    .contact-data h1 {
+        font-size: 3rem;
+    }
+    .contact-data address {
+        font-size: 2rem;
+    }
+    .contact-data address a::before {
+        content: '\A';
+    }
+    .contact-form button {
+        margin-bottom: 20px;
+    }
+    .contact-form-content {
+        top: 40%;
     }
 }
 
@@ -170,7 +205,7 @@
 		font-size: 1.5rem;
 	}
 	#order {
-		height: 135vh;
+/*		height: 135vh;*/
 	}
     .section-caption {
         margin-left: 5%;
@@ -181,6 +216,25 @@
     }
     #map {
         height: 100vh;
+    }
+    .contact-data {
+        margin-left: 5px;
+        margin-top: 5%;
+    }
+    .contact-data h1 {
+        font-size: 2rem;
+    }
+    .contact-data address {
+        font-size: 1.5rem;
+    }
+    .contact-data address a::before {
+        content: '\A';
+    }
+    .contact-form button {
+        margin-bottom: 20px;
+    }
+    .contact-form-content {
+        top: 40%;
     }
 }
 
@@ -197,7 +251,7 @@
 		margin-right: 5%;
 	}
 	#main-header {
-		height: 100vh;
+/*		height: 100vh;*/
 	}
 	.header-content {
 		top: 55%;
@@ -210,7 +264,7 @@
 		top: 30%;
 	}
 	#order {
-		height: 130vh;
+/*		height: 130vh;*/
 	}
     .section-caption {
         margin-left: 5%;
@@ -221,6 +275,25 @@
     }
     #map {
         height: 100vh;
+    }
+    .contact-data {
+        margin-left: 5px;
+        margin-top: 5%;
+    }
+    .contact-data h1 {
+        font-size: 1rem;
+    }
+    .contact-data address {
+        font-size: 1.5rem;
+    }
+    .contact-data address a::before {
+        content: '\A';
+    }
+    .contact-form button {
+        margin-bottom: 20px;
+    }
+    .contact-form-content {
+        top: 40%;
     }
 }
 
@@ -236,7 +309,7 @@
 		margin-right: 5%;
 	}
 	#main-header {
-		height: 115vh;
+/*		height: 115vh;*/
 	}
 	.header-content {
 		top: 55%;
@@ -264,7 +337,7 @@
 		margin-right: 5%;
 	}
 	#main-header {
-		height: 100vh;
+/*		height: 100vh;*/
 	}
 	.header-content {
 		top: 55%;
@@ -277,6 +350,25 @@
     }
     #map {
         height: 100vh;
+    }
+    .contact-data {
+        margin-left: 5px;
+        margin-top: 5%;
+    }
+    .contact-data h1 {
+        font-size: 2rem;
+    }
+    .contact-data address {
+        font-size: 1.5rem;
+    }
+    .contact-data address a::before {
+        content: '\A';
+    }
+    .contact-form button {
+        margin-bottom: 20px;
+    }
+    .contact-form-content {
+        top: 40%;
     }
 }
 
