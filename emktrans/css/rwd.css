@@ -99,6 +99,15 @@
     .contact-data address {
         font-size: 1.5rem;
     }
+    .contact-data address a::before {
+        content: '\A';
+    }
+    .contact-form button {
+        margin-bottom: 20px;
+    }
+    .contact-form-content {
+        top: 40%;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: portrait) {
