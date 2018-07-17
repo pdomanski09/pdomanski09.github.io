@@ -231,12 +231,6 @@ h2 {
     height: 50%;
 }
 
-/*
-.fa-icony {
-    height: 50%;
-}
-*/
-
 .fas-ico {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -338,19 +332,21 @@ h2 {
     overflow: hidden;
 }
 
-/*
-.contact-container {
+.contact-container, .contact-row {
     height: 100%;
 }
-*/
+
+.contact-content {
+    padding: 5%
+}
 
 .contact-data {
     color: #F6F7F8;
     position: relative;
     top: 50%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
-/*    margin-left: 5%;*/
+    margin-left: 5%;
     text-shadow: 5px 5px 5px black;
 }
 
@@ -359,7 +355,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     text-shadow: 5px 5px 5px black;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 .contact-data h1 span {
@@ -368,18 +364,19 @@ h2 {
 }
 
 .contact-data address {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     font-style: italic;
 }
 
-.contact-data address a {
+.contact-data address a, .contact-data address span  {
     color: #C32B3C;
 }
 
 .contact-form {
-    height: 100%;
+/*    height: 100%;*/
+    width: 100%;
 }
 
 .contact-form-content {
@@ -412,10 +409,10 @@ h2 {
     border: 0px solid #6c747a;
     background-color: rgba(108, 116, 122, .7);
     color: white;
+    font-weight: bold;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    
 }
 
 .contact-form form input:focus,
@@ -442,13 +439,15 @@ h2 {
     transition: all .5s linear;
 }
 
-.contact-form button:hover {
+.contact-form button:hover, .contact-form button:focus {
     background-color: #F6F7F8;
     color: #C32B3C;
     border: 1px #C32B3C solid;
 }
 
 /* SECTION CONTACT END */
+
+/* SECTION MAP START */
 
 #map {
     width: 100%;
@@ -461,6 +460,7 @@ h2 {
     overflow: hidden;
 }
 
+/* SECTION MAP END */
 
 /* COPYRIGHT START */
 
