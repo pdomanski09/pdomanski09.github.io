@@ -50,6 +50,9 @@
     #map {
         height: 100vh;
     }
+    .contact-data h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
@@ -85,6 +88,16 @@
     }
     #map {
         height: 100vh;
+    }
+    .contact-data {
+        margin-left: 5px;
+        margin-top: 5%;
+    }
+    .contact-data h1 {
+        font-size: 2rem;
+    }
+    .contact-data address {
+        font-size: 1.5rem;
     }
 }
 
