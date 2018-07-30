@@ -34,6 +34,14 @@ h3 {
     transform: translate(-50%, -50%);
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /*
 section {
 	padding: 60px 0;
@@ -451,7 +459,7 @@ h2 {
 
 #map {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     /*    background-image: linear-gradient(to top, rgba(0,10,10, .2), rgba(0,10,10, .9)), url(../img/truck5.jpg);*/
     background-position: center;
     background-size: cover;
@@ -466,7 +474,7 @@ h2 {
 
 .footer {
     width: 100%;
-    height: 30px;
+    height: 80px;
     background-color: black;
     font-size: 1rem;
     overflow: hidden;
@@ -479,10 +487,9 @@ h2 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    font-family: 'Roboto', sans-serif; 
 }
 
-.footer i {
-    color: #F6F7F8;
-    background-color: transparent;
-}
+
+
 /* COPYRIGHT END */
