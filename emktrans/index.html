@@ -94,7 +94,7 @@
                     </a>
                 </article>
                 <article class="col-md-4 fas-ico wow bounceInUp">
-                   <a href="#contact">
+                    <a href="#contact">
                         <i class="fas fa-comment"></i>
                         <h4>Zamów transport</h4>
                     </a>
@@ -108,22 +108,31 @@
             </div>
         </div>
     </section>
+    
     <!-- SECTION OFFER END -->
 
-<section id="offer">
-    <div class="container-fluid">
-        <div class="row">
-            <article class="h3-content">
-                <h3>Pobierz broszurę aby sprawdzić warunki współpracy</h3>
-                <a href="#"><button type="button" class="btn btn-danger booklet-btn btn-check-offer">Broszura</button></a>
-            </article>
+    <section id="offer">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <article class="offer-content">
+                    <hgroup class="section-header col-md-12">
+                        <h2 class="section-title">oferta</h2>
+                        <h1 class="section-caption h1-offer text-center">Zajmujemy się transportem na terenie całego kraju! Specjalizujemy się głównie w przewozie materiałów budowlanych, okien i maszyn rolniczych. Proponujemy elastyczne warunki współpracy i konkurencyjne ceny. Posiadamy doświdczonych kierowców, nowoczesne samochody oraz 10 lat doświadczenia na rynku! </h1>
+                    </hgroup>
+                </article>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="h3-offer">Pobierz broszurę aby sprawdzićpełną ofertę</h3>
+                    <a href="#"><button type="button" class="btn btn-danger booklet-btn btn-check-offer">Broszura</button></a>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="contact">
         <div class="container-fluid contact-container">
-               <div class="row contact-row">
+            <div class="row contact-row">
                 <div class="contact-content col-md-6">
                     <hgroup class="contact-data ">
                         <h1>Krzysztof
@@ -143,17 +152,17 @@
 						</address>
                     </hgroup>
                 </div>
-                    <div class="contact-form col-md-6">
-                        <form action="kontakt.php" method="post" autocomplete="on" class="contact-form-content">
-                            <input type="text" name="name" placeholder="Imię i nazwisko" required/>
-				        	<input type="email" name="email" placeholder="Adres e-mail" required/>
-				        	<input type="email" name="telefon" placeholder="telefon" required/>
-				        	<textarea name="message" placeholder="Wiadomość" required></textarea>
-				        	<button id="submit" name="submit" type="submit" value="Wyślij">Wyślij</button>
-                        </form>
-                    </div>
+                <div class="contact-form col-md-6">
+                    <form action="kontakt.php" method="post" autocomplete="on" class="contact-form-content">
+                        <input type="text" name="name" placeholder="Imię i nazwisko" required/>
+                        <input type="email" name="email" placeholder="Adres e-mail" required/>
+                        <input type="email" name="telefon" placeholder="telefon" required/>
+                        <textarea name="message" placeholder="Wiadomość" required></textarea>
+                        <button id="submit" name="submit" type="submit" value="Wyślij">Wyślij</button>
+                    </form>
                 </div>
             </div>
+        </div>
     </section>
 
     <footer id="map">
@@ -182,10 +191,12 @@
     <!-- MAIN JS -->
     <script src="js/jquery.typewriter.js"></script>
     <script src="js/main.js"></script>
-    
+
     <!-- WOW JS -->
     <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 

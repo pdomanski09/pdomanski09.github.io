@@ -204,17 +204,6 @@ h2 {
     color: #f4364c;
 }
 
-.btn-check-offer {
-    background-color: #f4364c;
-    border: .1px solid #f4364c;
-    height: 60px;
-    text-transform: uppercase;
-}
-
-.btn-check-offer:hover {
-    background-color: #C32B3C;
-    border: .1px solid #C32B3C;
-}
 
 /* HEADER CONTENT END */
 
@@ -303,16 +292,20 @@ h2 {
     font-weight: 600;
 }
 
-.section-header p {
+.section-header p, .section-header h1 {
     color: #F6F7F8;
     font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
+
 /* ORDER SECTION END */
+/* OFFER SECTION START */
 
 #offer {
     width: 100%;
-    height: 60vh;
+/*    height: 60vh;*/
     background-image: linear-gradient(to top, rgba(0, 10, 10, .2), rgba(0, 10, 10, .9)), url(../img/truck4.jpg);
     background-position: center;
     background-size: cover;
@@ -321,12 +314,38 @@ h2 {
     position: relative;
 }
 
-.booklet-btn {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+.h1-offer {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.h3-offer {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.booklet-btn {
+/*    position: relative;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%);*/
+}
+
+.btn-check-offer {
+    background-color: #f4364c;
+    border: .1px solid #f4364c;
+    height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.btn-check-offer:hover {
+    background-color: #C32B3C;
+    border: .1px solid #C32B3C;
+}
+
+/* OFFER SECTION END */
 /* SECTION CONTACT START */
 
 #contact {
