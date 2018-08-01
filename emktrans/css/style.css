@@ -326,6 +326,10 @@ h2 {
     margin-top: 30px;
 }
 
+#offer .section-header h2 {
+     margin-top: 2%;   
+}
+
 .booklet-btn {
 /*    position: relative;*/
 /*    left: 50%;*/
