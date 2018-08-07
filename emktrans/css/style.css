@@ -206,7 +206,7 @@ h2 {
 
 
 /* HEADER CONTENT END */
-
+/* HEADER END */
 /* ORDER SECTION START */
 
 #order {
@@ -512,7 +512,5 @@ h2 {
     transform: translateY(-50%);
     font-family: 'Roboto', sans-serif; 
 }
-
-
 
 /* COPYRIGHT END */
