@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>EVENT FORM</title>
+    <title>Formularz zapisu na event</title>
 </head>
+
 <body>
-    
+
+    <form action="https://formspree.io/piotrdomanski@tlen.pl" method="POST">
+        <input type="text" name="fname" placeholder="Imię" required>
+        <input type="text" name="sname" placeholder="Nazwisko" required>
+        <input type="email" name="_replyto" placeholder="Email" required>
+        
+        <label for="ticket">Wybierz rodzaj biletu:</label>
+        <select name="ticket" id="ticket">
+            <option value="normalny">Normalny</option>
+            <option value="premium">Premium</option>
+            <option value="vip">VIP</option>
+        </select>
+        
+        
+        <p>Menu wegańskie:</p>
+        <label>
+        <input type="radio" name="vegan-menu" value="tak">Tak
+        </label>
+        <label>
+        <input type="radio" name="vegan-menu" value="nie">Nie
+        </label>
+        
+        <label for="message">Dodatkowe uwagi:</label>
+        <textarea name="message" id="message" placeholder="wprowadź tekst"></textarea>
+        
+        <label for="">
+        <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych na potrzeby realizacji zapisów</label>
+        
+    </form>
+
+
 </body>
 </html>
