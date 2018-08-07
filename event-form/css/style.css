@@ -1,0 +1,55 @@
+body {
+    background-color: #fe7800;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+form {
+    background-color: aliceblue;
+    width: 500px;
+    padding: 40px;
+    border-top: 15px solid #13326c;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+}
+
+input, select, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+select {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    margin-top: 20px;
+    background-color: #13326c;
+    color: white;
+    cursor: pointer;
+    border: .1px solid;
+    transition: all .2s linear;
+}
+
+input[type="submit"]:hover {
+    background-color: #fe7800;
+}
+
+textarea {
+    margin-top: 10px;
+    border: .5px solid grey;
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 450px;
+    max-width: 500px;
+}
