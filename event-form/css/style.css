@@ -23,8 +23,11 @@ input, select, textarea {
     margin-bottom: 20px;
     padding: 10px;
     font-family: 'Lato', sans-serif;
+    color: black;
     font-weight: 500;
     font-size: 1.1rem;
+    border: .1px solid #bed1f4;
+    background-color: #bed1f4;
 }
 
 select {
@@ -39,6 +42,7 @@ input[type="submit"] {
     cursor: pointer;
     border: .1px solid;
     transition: all .2s linear;
+    letter-spacing: 1px;
 }
 
 input[type="submit"]:hover {
@@ -47,9 +51,24 @@ input[type="submit"]:hover {
 
 textarea {
     margin-top: 10px;
-    border: .5px solid grey;
+    border: .5px solid #bed1f4;
     min-height: 100px;
     max-height: 300px;
     min-width: 450px;
     max-width: 500px;
 }
+
+form .checkbox > span {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
