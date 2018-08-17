@@ -70,7 +70,36 @@
         top: 40%;
     }
     .offer-head {
-        transform: translateX(0);
+        transform: translate(15%, 15%);
+        width: 390px;
+        min-width: 250px;
+    }
+    .offer-head span {
+        font-size: 2.5rem;
+    }
+    .section-header .offer-head {
+        font-size: 2.5rem;
+        margin-top: 9%;
+    }
+    .offer-content-1 {
+        text-align: justify;
+        margin: 2%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .section-header .offer-content-1 {
+        font-size: 1.7rem;
+    }
+    .offer-container-1 {
+        background: transparent;
+    }
+    #offer {
+        background: linear-gradient(to top, rgba(0, 10, 10, .6), rgba(0, 10, 10, .4)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
+        background-size: cover;
+    }
+    .offer-container-2 .h3-offer {
+        margin-top: 0%;
+        font-size: 1.7rem;
     }
 }
 
@@ -128,9 +157,9 @@
         top: 40%;
     }
     .offer-head {
-        transform: translate(15%, 10%);
-        width: 390px;
-        min-width: 250px;
+        transform: translate(15%, 15%);
+        width: 300px;
+        min-width: 300px;
     }
     .offer-head span {
         font-size: 2.5rem;
@@ -146,7 +175,7 @@
         margin-bottom: 8%;
     }
     .section-header .offer-content-1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .offer-container-1 {
         background: transparent;
@@ -215,9 +244,9 @@
         top: 40%;
     }
     .offer-head {
-        transform: translate(15%, 10%);
-        width: 390px;
-        min-width: 250px;
+        transform: translate(15%, 15%);
+        width: 320px;
+        min-width: 310px;
     }
     .offer-head span {
         font-size: 2.5rem;
@@ -233,7 +262,7 @@
         margin-bottom: 8%;
     }
     .section-header .offer-content-1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .offer-container-1 {
         background: transparent;
@@ -305,7 +334,7 @@
     }
     .offer-head {
         transform: translate(10%, 15%);
-        width: 390px;
+        width: 320px;
         min-width: 250px;
     }
     .offer-head span {
