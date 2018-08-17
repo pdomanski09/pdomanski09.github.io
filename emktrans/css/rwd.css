@@ -74,6 +74,9 @@
         width: 390px;
         min-width: 250px;
     }
+    .offer-head:hover {
+    transform: translateX(5%);
+    }
     .offer-head span {
         font-size: 2.4rem;
     }
@@ -161,6 +164,9 @@
         width: 300px;
         min-width: 300px;
     }
+    .offer-head:hover {
+    transform: translateX(5%);
+    }
     .offer-head span {
         font-size: 2.4rem;
     }
@@ -247,6 +253,9 @@
         transform: translate(5%, 15%);
         width: 320px;
         min-width: 310px;
+    }
+    .offer-head:hover {
+    transform: translateX(5%);
     }
     .offer-head span {
         font-size: 2.4rem;
@@ -336,6 +345,9 @@
         transform: translate(5%, 15%);
         width: 320px;
         min-width: 250px;
+    }
+    .offer-head:hover {
+    transform: translateX(5%);
     }
     .offer-head span {
         font-size: 2.5rem;
@@ -427,6 +439,9 @@
         transform: translate(5%, 10%);
         width: 390px;
         min-width: 250px;
+    }
+    .offer-head:hover {
+    transform: translateX(5%);
     }
     .offer-head span {
         font-size: 2.5rem;
