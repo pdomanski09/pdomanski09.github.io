@@ -148,6 +148,13 @@
     .section-header .offer-content-1 {
         font-size: 1.7rem;
     }
+    .offer-container-1 {
+        background: transparent;
+    }
+    #offer {
+        background: linear-gradient(to top, rgba(0, 10, 10, .2), rgba(0, 10, 10, .9)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed center;
+        background-size: cover;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: portrait) {
