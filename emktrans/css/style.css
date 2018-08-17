@@ -353,6 +353,11 @@ h2 {
     transform: translateX(20%);
     min-width: 350px;
     max-width: 700px;
+    transition: 1.2s all ease .2s;
+}
+
+.offer-head:hover {
+    transform: translateX(50%);
 }
 
 .offer-head span {
