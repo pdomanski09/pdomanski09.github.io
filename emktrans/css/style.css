@@ -521,6 +521,10 @@ h2 {
     box-shadow: 10px 1em 2em hsla(0,0%,0%,.9);
 }
 
+.contact-form form input:hover,
+.contact-form form textarea:hover {
+    background-color: rgba(108, 116, 122, .9);
+}
 
 .contact-form button {
     background-color: #C32B3C;

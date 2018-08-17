@@ -182,9 +182,9 @@
                 <div class="contact-form col-md-6">
                     <form action="kontakt.php" method="post" autocomplete="on" class="contact-form-content">
                         <input type="text" name="name" placeholder="Imię i nazwisko" required autocomplete="on"/>
-                        <input type="email" name="email" placeholder="Adres e-mail" required autocomplete="on"/>
-                        <input type="email" name="telefon" placeholder="Telefon" required autocomplete="on"/>
-                        <textarea name="message" placeholder="Wiadomość" multiple required autocomplete="on"></textarea>
+                        <input type="email" name="email" placeholder="Adres e-mail" multiple required autocomplete="on"/>
+                        <input type="tel" name="telefon" placeholder="Telefon" required autocomplete="on" maxlength="9" />
+                        <textarea name="message" placeholder="Wiadomość" required autocomplete="on" wrap="hard"></textarea>
                         <button id="submit" name="submit" type="submit" value="Wyślij">Wyślij</button>
                     </form>
                 </div>
