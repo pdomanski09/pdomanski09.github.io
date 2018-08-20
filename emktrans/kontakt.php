@@ -6,6 +6,9 @@ $name = $_POST['name'];
 // Tworzymy zmienną dla adresu email
 $email = $_POST['email'];
 
+// Tworzymy zmienną dla telefonu
+$tel = $_POST['telefon'];
+
 // Tworzymy zmienną dla wiadomości
 $message = $_POST['message'];
 
@@ -22,6 +25,7 @@ $tytul = "Formularz kontaktowy z MKTRANS24.PL";
 $wiadomosc = "";
 $wiadomosc .= "Imie i nazwisko: " . $name . "\n";
 $wiadomosc .= "Email: " . $email . "\n";
+$wiadomosc .= "Telefon: " . $tel . "\n";
 $wiadomosc .= "Wiadomość: " . $message . "\n";
 
 // Dodajemy UTF-8 do naglowka naszej wiadomości
