@@ -338,7 +338,7 @@ h2 {
     background-image: url(../img/offer-bg.png);
     background-size: cover;
     background-position: right;
-    z-index: 100;
+    z-index: 50;
 }
 
 .offer-container-2 {
