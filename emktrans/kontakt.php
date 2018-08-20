@@ -10,19 +10,20 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Podajesz adres email z którego ma być wysłana wiadomość
-$odkogo = "kluczesobolew@o2.pl";
+$odkogo = "piotrdomanski@tlen.pl";
 
 // Podajesz adres email na który chcesz otrzymać wiadomość
-$dokogo = "kluczesobolew@o2.pl";
+$dokogo = "piotrdomanski@tlen.pl";
 
 // Podajesz tytuł jaki ma mieć ta wiadomość email
-$tytul = "Formularz kontaktowy z SecureLock";
+$tytul = "Formularz kontaktowy z MKTRANS24.PL";
 
 // Przygotowujesz treść wiadomości
 $wiadomosc = "";
 $wiadomosc .= "Imie i nazwisko: " . $name . "\n";
 $wiadomosc .= "Email: " . $email . "\n";
 $wiadomosc .= "Wiadomość: " . $message . "\n";
+
 // Dodajemy UTF-8 do naglowka naszej wiadomości
 $naglowek = "";
 $naglowek .= "Od:" . $odkogo . " \n";
