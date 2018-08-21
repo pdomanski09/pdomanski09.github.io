@@ -550,7 +550,53 @@ h2 {
 }
 
 /* SECTION CONTACT END */
+/* SENDED MESSAGE STYLE */
 
+#sended {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(63, 68, 71, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 190;
+    display: none;
+}
+
+#sended.close-after-send {
+    visibility: hidden;
+}
+
+#sended.show-after-send {
+    display: block;
+}
+
+#sended span {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #F6F7F8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sended .close-message {
+    font-size: 4rem;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    color: #f4364c;
+    display: block;
+    cursor: pointer;
+}
+
+
+/* SENDED MESSAGE STYLE */
 /* SECTION MAP START */
 
 #map {

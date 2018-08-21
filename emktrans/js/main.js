@@ -40,9 +40,16 @@ $('#typewriter').typewriter({
 });
 
 
+//show message after send form
+$(".send-message").click(function(e) {
+    e.preventDefault();
+    $("#sended").addClass("show-after-send");
+})
 
 
-
-
-
+//arrow close-message
+$(".close-message").click(function(e) {
+    e.preventDefault();
+    $("#sended").addClass("close-after-send");
+})
 
