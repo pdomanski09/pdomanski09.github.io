@@ -104,6 +104,9 @@
         margin-top: 0%;
         font-size: 1.7rem;
     }
+    #sended span {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
@@ -192,6 +195,9 @@
     }
     .offer-container-2 .h3-offer {
         margin-top: 0%;
+        font-size: 1.7rem;
+    }
+    #sended span {
         font-size: 1.7rem;
     }
 }
@@ -283,6 +289,9 @@
     .offer-container-2 .h3-offer {
         margin-top: 0%;
         font-size: 1.7rem;
+    }
+    #sended span {
+        font-size: 1.9rem;
     }
 }
 
@@ -376,6 +385,9 @@
         margin-top: 0%;
         font-size: 1.7rem;
     }
+    #sended span {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -468,6 +480,9 @@
     }
     .offer-container-2 .h3-offer {
         margin-top: 0%;
+        font-size: 1.7rem;
+    }
+    #sended span {
         font-size: 1.7rem;
     }
 }
