@@ -70,11 +70,13 @@
         top: 40%;
     }
     .offer-head {
+        -webkit-transform: translate(5%, 15%);
         transform: translate(5%, 15%);
         width: 390px;
         min-width: 250px;
     }
     .offer-head:hover {
+    -webkit-transform: translateX(5%);
     transform: translateX(5%);
     }
     .offer-head span {
@@ -97,6 +99,7 @@
         background: transparent;
     }
     #offer {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 10, .6)), to(rgba(0, 10, 10, .4))), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background: linear-gradient(to top, rgba(0, 10, 10, .6), rgba(0, 10, 10, .4)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background-size: cover;
     }
@@ -163,11 +166,13 @@
         top: 40%;
     }
     .offer-head {
+        -webkit-transform: translate(5%, 15%);
         transform: translate(5%, 15%);
         width: 300px;
         min-width: 300px;
     }
     .offer-head:hover {
+    -webkit-transform: translateX(5%);
     transform: translateX(5%);
     }
     .offer-head span {
@@ -190,6 +195,7 @@
         background: transparent;
     }
     #offer {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 10, .8)), to(rgba(0, 10, 10, .8))), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background: linear-gradient(to top, rgba(0, 10, 10, .8), rgba(0, 10, 10, .8)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background-size: cover;
     }
@@ -256,11 +262,13 @@
         top: 40%;
     }
     .offer-head {
+        -webkit-transform: translate(5%, 15%);
         transform: translate(5%, 15%);
         width: 320px;
         min-width: 310px;
     }
     .offer-head:hover {
+    -webkit-transform: translateX(5%);
     transform: translateX(5%);
     }
     .offer-head span {
@@ -283,6 +291,7 @@
         background: transparent;
     }
     #offer {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 10, .8)), to(rgba(0, 10, 10, .8))), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background: linear-gradient(to top, rgba(0, 10, 10, .8), rgba(0, 10, 10, .8)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background-size: cover;
     }
@@ -351,11 +360,13 @@
         top: 40%;
     }
     .offer-head {
+        -webkit-transform: translate(5%, 15%);
         transform: translate(5%, 15%);
         width: 320px;
         min-width: 250px;
     }
     .offer-head:hover {
+    -webkit-transform: translateX(5%);
     transform: translateX(5%);
     }
     .offer-head span {
@@ -378,6 +389,7 @@
         background: transparent;
     }
     #offer {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 10, .8)), to(rgba(0, 10, 10, .8))), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background: linear-gradient(to top, rgba(0, 10, 10, .8), rgba(0, 10, 10, .8)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background-size: cover;
     }
@@ -448,11 +460,13 @@
         top: 40%;
     }
     .offer-head {
+        -webkit-transform: translate(5%, 10%);
         transform: translate(5%, 10%);
         width: 390px;
         min-width: 250px;
     }
     .offer-head:hover {
+    -webkit-transform: translateX(5%);
     transform: translateX(5%);
     }
     .offer-head span {
@@ -475,6 +489,7 @@
         background: transparent;
     }
     #offer {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 10, .8)), to(rgba(0, 10, 10, .8))), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background: linear-gradient(to top, rgba(0, 10, 10, .8), rgba(0, 10, 10, .8)), url(../img/offer-bg.png) no-repeat scroll right, url(../img/truck_m.jpg) no-repeat fixed -70px 10px;
         background-size: cover;
     }
