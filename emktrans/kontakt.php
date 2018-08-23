@@ -36,11 +36,12 @@ $naglowek .= "Content-Type:text/plain;charset=utf-8";
 // Wysyłamy wiadomość
 $sukces = mail($dokogo, $tytul, $wiadomosc, $naglowek);
 
+
 // Przekierowywujemy na potwierdzenie
 if ($sukces){
     echo '<script>success()</script>';
 //  print "<meta http-equiv=\"refresh\" content=\"0;URL=potwierdzenie.php\">";
-//}
+}
 else{
 //    $("#sended").addClass("show-after-send");
 //  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
