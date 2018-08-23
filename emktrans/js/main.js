@@ -1,9 +1,5 @@
 'use strict'
 
-function success() {
-    $("#sended").addClass("show-after-send");
-    console.log('dupa');
-}
 
 //smooth scroll
 $("a[href*='#']:not([href='#'])").click(function (e) {
@@ -57,3 +53,26 @@ $(".close-message").click(function(e) {
     $("#sended").addClass("close-after-send");
 })
 
+
+//AJAX SEND FORM METHOD
+$('#submit').click(function(){
+    var data = $('form').serializeArray();
+    console.log(data);
+    $.ajax(){
+        type: "POST",
+        url: '../kontakt.php',
+        data: data,
+        beforeSend:function(){
+            
+        },
+        success:function(response){
+            console.log(response);
+            if(response.statusText==='success'){
+                 $("#sended").addClass("show-after-send");
+            }
+            if(response.statusText === 'error'){
+                 $("#sended").addClass("show-error");
+            }
+        }    
+    }
+})
