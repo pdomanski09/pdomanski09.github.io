@@ -362,23 +362,29 @@ h2 {
 
 .offer-head {
     padding: 2%;
+/*
     background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(rgba(63, 68, 71, 1)), to(black));
     background: linear-gradient(black, rgba(63, 68, 71, 1), black);
     -webkit-clip-path: polygon(0 0, 100% 0, 95% 99%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 95% 99%, 0% 100%);
+*/
     position: relative;
     -webkit-transform: translateX(20%);
     transform: translateX(20%);
+/*
     min-width: 350px;
     max-width: 700px;
+*/
     -webkit-transition: 1.2s all ease .2s;
     transition: 1.2s all ease .2s;
 }
 
+/*
 .offer-head:hover {
     -webkit-transform: translateX(50%);
     transform: translateX(50%);
 }
+*/
 
 .offer-head span {
     color: #f4364c;
