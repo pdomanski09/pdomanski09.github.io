@@ -38,7 +38,7 @@ $sukces = mail($dokogo, $tytul, $wiadomosc, $naglowek);
 
 // Przekierowywujemy na potwierdzenie
 if ($sukces){
-    echo '<script>$("#sended").addClass("show-after-send"</script>';
+    echo '<script>$("#sended").addClass("show-after-send")</script>';
 //  print "<meta http-equiv=\"refresh\" content=\"0;URL=potwierdzenie.php\">";
 }
 else{
