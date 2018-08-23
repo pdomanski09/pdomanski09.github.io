@@ -70,7 +70,7 @@ section {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 100;
+    z-index: 13;
     background-color: rgba(244,54,76, .7);
     margin: 5%;
     position: fixed;
@@ -123,6 +123,7 @@ section {
     color: white;
     background-color: rgba(63, 68, 71, .1);
     text-transform: uppercase;
+    z-index: 10;
 }
 
 #main-nav {
@@ -353,7 +354,7 @@ h2 {
     background-image: url(../img/offer-bg.png);
     background-size: cover;
     background-position: right;
-    z-index: 50;
+    z-index: 9;
 }
 
 .offer-container-2 {
@@ -594,7 +595,7 @@ h2 {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 190;
+    z-index: 14;
     display: none;
 }
 
@@ -617,12 +618,13 @@ h2 {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 #sended .close-message {
     font-size: 4rem;
     position: fixed;
-    top: 10%;
+    top: 5%;
     right: 5%;
     color: #f4364c;
     display: block;
