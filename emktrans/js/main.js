@@ -1,5 +1,9 @@
 'use strict'
 
+function success() {
+    $("#sended").addClass("show-after-send");
+    console.log('dupa');
+}
 
 //smooth scroll
 $("a[href*='#']:not([href='#'])").click(function (e) {

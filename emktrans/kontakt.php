@@ -38,11 +38,11 @@ $sukces = mail($dokogo, $tytul, $wiadomosc, $naglowek);
 
 // Przekierowywujemy na potwierdzenie
 if ($sukces){
-    $("#sended").addClass("show-after-send");
+    echo '<script>success()</script>';
 //  print "<meta http-equiv=\"refresh\" content=\"0;URL=potwierdzenie.php\">";
-}
+//}
 else{
-    $("#sended").addClass("show-after-send");
-//  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+//    $("#sended").addClass("show-after-send");
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
 }
 ?>
