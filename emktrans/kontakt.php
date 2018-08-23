@@ -43,6 +43,6 @@ if ($sukces){
 //}
 else{
 //    $("#sended").addClass("show-after-send");
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+//  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
 }
 ?>
