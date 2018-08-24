@@ -56,7 +56,7 @@ $(".close-message").click(function(e) {
 
 //AJAX SEND FORM METHOD
 $('#submit').click(function(){
-    var data = $('form').serializeArray();
+    var data = $('#form').serializeArray();
     console.log(data);
     $.ajax(){
         type: "POST",
@@ -67,11 +67,11 @@ $('#submit').click(function(){
         },
         success:function(response){
             console.log(response);
-            if(response.statusText==='success'){
+            if(response.statusText==='succes'){
                  $("#sended").addClass("show-after-send");
             }
             if(response.statusText === 'error'){
-                 $("#sended").addClass("show-error");
+                 $("#sended").addClass("show-after-send");
             }
         }    
     }
