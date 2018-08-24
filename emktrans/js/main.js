@@ -49,13 +49,11 @@ $(".send-message").click(function(e) {
         url: 'kontakt.php',
         data: data,
         beforeSend:function(){
-            
+          //tu można wstawić preloader  
         },
         success:function(response){
             console.log(response)
             if(response==='success'){
-                
-                
                  $("#sended").addClass("show-after-send");
             }
             if(response === 'error'){
