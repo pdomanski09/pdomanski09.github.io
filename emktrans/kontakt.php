@@ -2,16 +2,16 @@
 print_r($_POST);
 if(isset($_POST) && !empty($_POST)){
 // Tworzymy zmienną dla imienia i nazwiska
-    $name = $_POST['data']['name'];
+    $name = $_POST['name'];
 
     // Tworzymy zmienną dla adresu email
-    $email = $_POST['data']['email'];
+    $email = $_POST['email'];
 
     // Tworzymy zmienną dla telefonu
-    $tel = $_POST['data']['telefon'];
+    $tel = $_POST['telefon'];
 
     // Tworzymy zmienną dla wiadomości
-    $message = $_POST['data']['message'];
+    $message = $_POST['message'];
 
     // Podajesz adres email z którego ma być wysłana wiadomość
     $odkogo = "piotrdomanski@tlen.pl";
@@ -40,7 +40,7 @@ if(isset($_POST) && !empty($_POST)){
     // Przekierowywujemy na potwierdzenie
     if ($sukces){
 //        echo 'succes';
-      print "<meta http-equiv=\"refresh\" content=\"0;URL=confirm-form.js\">";
+      print "<meta http-equiv=\"refresh\" content=\"0;URL=js/confirm-form.js\">";
     }
     else{
 //        echo 'error';
