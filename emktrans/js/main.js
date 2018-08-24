@@ -41,10 +41,29 @@ $('#typewriter').typewriter({
 
 
 //show message after send form
-//$(".send-message").click(function(e) {
-//    e.preventDefault();
+$(".send-message").click(function(e) {
+    e.preventDefault();
 //    $("#sended").addClass("show-after-send");
-//})
+     var data = $('#form').serializeArray();
+    console.log(data);
+    $.ajax({
+        type: "POST",
+        url: '../kontakt.php',
+        data: data,
+        beforeSend:function(){
+            
+        },
+        success:function(response){
+            console.log(response);
+            if(response.statusText==='succes'){
+                 $("#sended").addClass("show-after-send");
+            }
+            if(response.statusText === 'error'){
+                 $("#sended").addClass("show-after-send");
+            }
+        }    
+    });
+});
 
 
 //arrow close-message
