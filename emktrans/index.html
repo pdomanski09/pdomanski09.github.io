@@ -22,10 +22,13 @@
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <script src="js/confirm-form.js"></script>
+   
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rwd.css">
     <link rel="stylesheet" href="css/animation.css">
+    
     <!-- WOW JS -->
     <link rel="stylesheet" href="css/animate.css">
 </head>
@@ -180,7 +183,7 @@
                     </hgroup>
                 </div>
                 <div class="contact-form col-md-6">
-                    <form autocomplete="on" class="contact-form-content" id="form">
+                    <form action="kontakt.php" method="post" autocomplete="on" class="contact-form-content" id="form">
                         <input type="text" name="name" placeholder="Imię i nazwisko" required autocomplete="on"/>
                         <input type="email" name="email" placeholder="Adres e-mail" multiple required autocomplete="on"/>
                         <input type="tel" name="telefon" placeholder="Telefon" required autocomplete="on" maxlength="9" />
@@ -232,7 +235,7 @@
     <!-- MAIN JS -->
     <script src="js/jquery.typewriter.js"></script>
     <script src="js/main.js"></script>
-
+    
     <!-- WOW JS -->
     <script src="js/wow.min.js"></script>
     <script>

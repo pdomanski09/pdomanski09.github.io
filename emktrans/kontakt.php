@@ -39,12 +39,12 @@ if(isset($_POST) && !empty($_POST)){
 
     // Przekierowywujemy na potwierdzenie
     if ($sukces){
-        echo 'succes';
-    //  print "<meta http-equiv=\"refresh\" content=\"0;URL=potwierdzenie.php\">";
+//        echo 'succes';
+      print "<meta http-equiv=\"refresh\" content=\"0;URL=confirm-form.js\">";
     }
     else{
-        echo 'error';
-    //  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+//        echo 'error';
+      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
     }
 }
 ?>

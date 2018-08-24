@@ -55,24 +55,24 @@ $(".close-message").click(function(e) {
 
 
 //AJAX SEND FORM METHOD
-$('#submit').click(function(){
-    var data = $('#form').serializeArray();
-    console.log(data);
-    $.ajax(){
-        type: "POST",
-        url: '../kontakt.php',
-        data: data,
-        beforeSend:function(){
-            
-        },
-        success:function(response){
-            console.log(response);
-            if(response.statusText==='succes'){
-                 $("#sended").addClass("show-after-send");
-            }
-            if(response.statusText === 'error'){
-                 $("#sended").addClass("show-after-send");
-            }
-        }    
-    }
-})
+//$('#submit').click(function(){
+//    var data = $('#form').serializeArray();
+//    console.log(data);
+//    $.ajax(){
+//        type: "POST",
+//        url: '../kontakt.php',
+//        data: data,
+//        beforeSend:function(){
+//            
+//        },
+//        success:function(response){
+//            console.log(response);
+//            if(response.statusText==='succes'){
+//                 $("#sended").addClass("show-after-send");
+//            }
+//            if(response.statusText === 'error'){
+//                 $("#sended").addClass("show-after-send");
+//            }
+//        }    
+//    }
+//})
