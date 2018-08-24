@@ -53,7 +53,8 @@ $(".send-message").click(function(e) {
             
         },
         success:function(response){
-            if(response==='succes'){
+            console.log(response)
+            if(response==='success'){
                 
                 
                  $("#sended").addClass("show-after-send");
