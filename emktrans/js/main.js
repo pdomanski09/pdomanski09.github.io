@@ -40,10 +40,9 @@ $('#typewriter').typewriter({
 });
 
 
-//show message after send form
+//send form and show message
 $(".send-message").click(function(e) {
     e.preventDefault();
-//    $("#sended").addClass("show-after-send");
      var data = $('#form').serializeArray();
     $.ajax({
         type: "POST",
