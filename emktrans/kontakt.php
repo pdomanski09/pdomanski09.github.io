@@ -1,6 +1,7 @@
 <?php
-print_r($_POST);
+
 if(isset($_POST) && !empty($_POST)){
+ 
 // Tworzymy zmienną dla imienia i nazwiska
     $name = $_POST['name'];
 
@@ -39,12 +40,12 @@ if(isset($_POST) && !empty($_POST)){
 
     // Przekierowywujemy na potwierdzenie
     if ($sukces){
-//        echo 'succes';
-      print "<meta http-equiv=\"refresh\" content=\"0;URL=form-confirm.html\">";
+        echo 'success';
+//      print "<meta http-equiv=\"refresh\" content=\"0;URL=form-confirm.html\">";
     }
     else{
-//        echo 'error';
-      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+        echo 'error';
+//      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
     }
 }
 ?>

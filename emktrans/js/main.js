@@ -45,21 +45,21 @@ $(".send-message").click(function(e) {
     e.preventDefault();
 //    $("#sended").addClass("show-after-send");
      var data = $('#form').serializeArray();
-    console.log(data);
     $.ajax({
         type: "POST",
-        url: '../kontakt.php',
+        url: 'kontakt.php',
         data: data,
         beforeSend:function(){
             
         },
         success:function(response){
-            console.log(response);
-            if(response.statusText==='succes'){
+            if(response==='succes'){
+                
+                
                  $("#sended").addClass("show-after-send");
             }
-            if(response.statusText === 'error'){
-                 $("#sended").addClass("show-after-send");
+            if(response === 'error'){
+                 $("#sended").addClass("show-error");
             }
         }    
     });
