@@ -1,8 +1,7 @@
 /* SECTION HEADER START */
-
 /* TO PORTRAIT */
-
 /* NAVBAR CHAMBURGER STYLE START */
+
 @media (max-width: 991px) {
 	#navbarNav {
 		background-color: rgba(63, 68, 71, .9);
@@ -36,9 +35,6 @@
 	}
 	.h3-content h3 {
 		font-size: 1.5rem;
-	}
-	#order {
-/*		height: 135vh;*/
 	}
     .section-caption {
         margin-left: 5%;
@@ -75,12 +71,6 @@
         width: 390px;
         min-width: 250px;
     }
-/*
-    .offer-head:hover {
-    -webkit-transform: translateX(5%);
-    transform: translateX(5%);
-    }
-*/
     .offer-head span {
         font-size: 2.4rem;
     }
@@ -135,9 +125,6 @@
 		font-size: 2rem;
 		font-weight: 300
 	}
-	#order {
-/*		height: 130vh;*/
-	}
     .section-caption {
         margin-left: 5%;
         margin-right: 5%;
@@ -173,12 +160,6 @@
         width: 300px;
         min-width: 300px;
     }
-/*
-    .offer-head:hover {
-    -webkit-transform: translateX(5%);
-    transform: translateX(5%);
-    }
-*/
     .offer-head span {
         font-size: 2.4rem;
     }
@@ -233,9 +214,6 @@
 		font-size: 3rem;
 		font-weight: 400
 	}
-	#order {
-/*		height: 100vh;*/
-	}
     .section-caption {
         margin-left: 5%;
         margin-right: 5%;
@@ -271,12 +249,6 @@
         width: 320px;
         min-width: 310px;
     }
-/*
-    .offer-head:hover {
-    -webkit-transform: translateX(5%);
-    transform: translateX(5%);
-    }
-*/
     .offer-head span {
         font-size: 2.4rem;
     }
@@ -310,7 +282,6 @@
     }
 }
 
-
 /* TO LANDSCAPE */
 
 @media (min-width: 320) and (max-width: 390) and (orientation: landscape) {
@@ -332,9 +303,6 @@
 	}
 	.h3-content h3 {
 		font-size: 1.5rem;
-	}
-	#order {
-/*		height: 135vh;*/
 	}
     .section-caption {
         margin-left: 5%;
@@ -371,12 +339,6 @@
         width: 320px;
         min-width: 250px;
     }
-/*
-    .offer-head:hover {
-    -webkit-transform: translateX(5%);
-    transform: translateX(5%);
-    }
-*/
     .offer-head span {
         font-size: 2.5rem;
     }
@@ -410,7 +372,6 @@
     }
 }
 
-
 @media (max-width: 540px) and (orientation: landscape) {
 	.header-content h1 {
 		margin-bottom: 1%;
@@ -422,9 +383,6 @@
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-	#main-header {
-/*		height: 100vh;*/
-	}
 	.header-content {
 		top: 55%;
 	}
@@ -434,9 +392,6 @@
 	}
 	.h3-content {
 		top: 30%;
-	}
-	#order {
-/*		height: 130vh;*/
 	}
     .section-caption {
         margin-left: 5%;
@@ -473,12 +428,6 @@
         width: 390px;
         min-width: 250px;
     }
-/*
-    .offer-head:hover {
-    -webkit-transform: translateX(5%);
-    transform: translateX(5%);
-    }
-*/
     .offer-head span {
         font-size: 2.5rem;
     }
@@ -523,14 +472,8 @@
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-	#main-header {
-/*		height: 115vh;*/
-	}
 	.header-content {
 		top: 55%;
-	}
-	#order {
-/*		height: 180vh;*/
 	}
     .section-header h2 {
         margin-top: 10%;
@@ -551,18 +494,9 @@
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-	#main-header {
-/*		height: 100vh;*/
-	}
 	.header-content {
 		top: 55%;
 	}
-	#order {
-/*		height: 90vh;*/
-	}
-    .section-header h2 {
-/*        margin-top: 10%;*/
-    }
     #map {
         height: 100vh;
     }
@@ -588,16 +522,3 @@
 }
 
 /* SECTION HEADER END */
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,5 @@
 'use strict'
 
-
 //smooth scroll
 $("a[href*='#']:not([href='#'])").click(function (e) {
     $("html, body").animate({
@@ -8,7 +7,6 @@ $("a[href*='#']:not([href='#'])").click(function (e) {
     }, 500);
 	$(".navbar-collapse").removeClass('show')
 });
-
 
 // scroll nav color change
 $(window).scroll(function () {
@@ -19,7 +17,6 @@ $(window).scroll(function () {
     }
 });
 
-
 //show arrow
 $(window).scroll(function () {
     if ($(window).scrollTop() > 500) {
@@ -28,7 +25,6 @@ $(window).scroll(function () {
         $("#arrow").css("display", "none");
     }
 });
-
 
 //type text in header
 $('#typewriter').typewriter({
@@ -39,7 +35,6 @@ $('#typewriter').typewriter({
 	blinkSpeed : 900
 });
 
-
 //send form and show message
 $(".send-message").click(function(e) {
     e.preventDefault();
@@ -49,7 +44,7 @@ $(".send-message").click(function(e) {
         url: 'kontakt.php',
         data: data,
         beforeSend:function(){
-          //tu można wstawić preloader  
+          //tu można wstawić loader  
         },
         success:function(response){
             console.log(response)
@@ -63,33 +58,8 @@ $(".send-message").click(function(e) {
     });
 });
 
-
 //arrow close-message
 $(".close-message").click(function(e) {
     e.preventDefault();
     $("#sended").addClass("close-after-send");
 })
-
-
-//AJAX SEND FORM METHOD
-//$('#submit').click(function(){
-//    var data = $('#form').serializeArray();
-//    console.log(data);
-//    $.ajax(){
-//        type: "POST",
-//        url: '../kontakt.php',
-//        data: data,
-//        beforeSend:function(){
-//            
-//        },
-//        success:function(response){
-//            console.log(response);
-//            if(response.statusText==='succes'){
-//                 $("#sended").addClass("show-after-send");
-//            }
-//            if(response.statusText === 'error'){
-//                 $("#sended").addClass("show-after-send");
-//            }
-//        }    
-//    }
-//})
