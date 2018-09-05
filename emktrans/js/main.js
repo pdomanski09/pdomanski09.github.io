@@ -63,8 +63,3 @@ $(".close-message").click(function(e) {
     e.preventDefault();
     $("#sended").addClass("close-after-send");
 })
-
-$(".close-message").click(function(e) {
-    e.preventDefault();
-    $("#non-sended").addClass("close-after-error");
-})

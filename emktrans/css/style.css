@@ -602,10 +602,6 @@ h2 {
     display: block;
 }
 
-#non-sended.close-after-error {
-    visibility: hidden;
-}
-
 
 #non-sended span {
     font-size: 3rem;
