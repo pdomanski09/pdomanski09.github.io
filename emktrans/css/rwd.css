@@ -102,6 +102,9 @@
     #sended span {
         font-size: 2rem;
     }
+    #non-sended span {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 540px) and (orientation: portrait) {
@@ -191,6 +194,9 @@
     #sended span {
         font-size: 2rem;
     }
+    #non-sended span {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 541px) and (max-width: 740px) and (orientation: portrait) {
@@ -278,6 +284,9 @@
         font-size: 1.7rem;
     }
     #sended span {
+        font-size: 2.2rem;
+    }
+    #non-sended span {
         font-size: 2.2rem;
     }
 }
@@ -370,6 +379,9 @@
     #sended span {
         font-size: 2rem;
     }
+    #non-sended span {
+        font-size: 2.1rem;
+    }
 }
 
 @media (max-width: 540px) and (orientation: landscape) {
@@ -457,6 +469,9 @@
         font-size: 1.7rem;
     }
     #sended span {
+        font-size: 2.2rem;
+    }
+    #non-sended span {
         font-size: 2.2rem;
     }
 }
