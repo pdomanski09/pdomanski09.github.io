@@ -585,6 +585,51 @@ h2 {
     cursor: pointer;
 }
 
+#non-sended {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(63, 68, 71, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 14;
+    display: none;
+}
+
+#non-sended.show-error {
+    display: block;
+}
+
+#non-sended.close-after-error {
+    visibility: hidden;
+}
+
+
+#non-sended span {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #F6F7F8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#non-sended .close-message {
+    font-size: 4rem;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    color: #f4364c;
+    display: block;
+    cursor: pointer;
+}
 
 /* SENDED MESSAGE STYLE END*/
 /* SECTION MAP START */
