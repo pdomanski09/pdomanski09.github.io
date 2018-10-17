@@ -7,3 +7,47 @@ html, body {
     padding: 0;
 }
 
+#kolumna {
+    position: absolute;
+    width: 990px;
+    height: 100%;
+    background-color: #BBBBBB;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+#belka-gorna {
+    position: relative;
+    width: auto;
+    height: 50px;
+    background-color: #777777;
+}
+
+.kwadrat {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.kwadrat span {
+    position: relative;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    top: 20%;
+}
+
+.kwadrat1 {
+    position: absolute;
+    left: 0;
+}
+
+.kwadrat2 {
+    position: absolute;
+    right: 0;
+}
